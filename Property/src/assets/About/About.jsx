@@ -28,7 +28,7 @@ function About() {
       <h1 className='About-Tekana' style={{color: '#4b48ac'}}>Who We Are</h1>
       <p className='Tekana-Paragraph'>We are committed to helping you save time, reduce paperwork, and streamline communication between landlords and tenants, all while offering transparency and convenience through our user-friendly platform.</p>
       </Col>
-      <Col className='Left-About'>
+      <Col className='Rigth-About'>
       <h1 className='About-Tekana' style={{color: '#4b48ac'}}>What You Are Looking For??</h1>
       <Tabs
       defaultActiveKey="apartment"
@@ -39,7 +39,7 @@ function About() {
         {/* Apartment-Part */}
       <Tab eventKey="apartment" title="Apartment">
         <p><span style={{color: '#4B48AC', fontSize: '18px', fontWeight: '500'}}>Apartment:</span> Offering well-maintained and modern apartments, Tekana ensures a comfortable living experience with streamlined rent payments and fast response to maintenance requests.</p>
-        <div class="container text-center">
+        <div class=" text-center">
         <div class="row-1">
             {/* Apartment-part */}
         <div class="col-1">
@@ -77,7 +77,7 @@ function About() {
       <Tab eventKey="commercial" title="Commercial">
         <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Commercial:</span> We manage prime commercial spaces that cater to businesses of all sizes, providing a hassle-free leasing process and comprehensive property management services.</p>
 
-        <div class="container text-center">
+        <div class="text-center">
         <div class="row">
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
@@ -114,7 +114,7 @@ function About() {
       <Tab eventKey="residential" title="Residential">
         <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Residential:</span> Tekana makes it easy to find and manage your ideal residential property, whether it's a family home or a cozy rental. Our platform simplifies every aspect of your tenancy.</p>
 
-        <div class="container text-center">
+        <div class="text-center">
         <div class="row">
             {/* Apartment-part */}
         <div class="col">
@@ -152,7 +152,7 @@ function About() {
       <Tab eventKey="student" title="Student">
         <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Student: </span> Our student housing options are designed with convenience in mind, offering affordable and accessible accommodations close to academic institutions.</p>
 
-        <div class="container text-center">
+        <div class="text-center">
         <div class="row">
             {/* Apartment-part */}
         <div class="col">
@@ -190,7 +190,7 @@ function About() {
       <Tab eventKey="parking" title="Parking">
         <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Parking:</span> We provide secure, well-located parking spaces, making vehicle management convenient and accessible for tenants and property owners alike.</p>
 
-        <div class="container text-center">
+        <div class="text-center">
         <div class="row">
             {/* Apartment-part */}
         <div class="col">

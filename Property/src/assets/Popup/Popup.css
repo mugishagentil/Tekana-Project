@@ -1,5 +1,5 @@
 .mobile-close-btn {
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 20px;
     right: 25px;
@@ -34,6 +34,12 @@
   @media (max-width: 768px) {
     .mobile-close-btn {
       display: block;
+    }
+    .mobile-close-btn {
+      /* display: none; */
+      position: absolute;
+      top: 20px;
+      right: 25px;
     }
     #pop-div{
       height: 95vh;

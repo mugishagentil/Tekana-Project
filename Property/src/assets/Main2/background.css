@@ -201,6 +201,14 @@ video{
      /* Styles for medium laptops (screen width between 1280px and 1440px) */
 @media (min-width: 1280px) and (max-width: 1440px) {
     
+    .form-control{
+        width: 30%;
+        margin-top: 20px;
+    }
+    .Subscribe-Btn3{
+       width: 30%;
+       margin-bottom: 60px;
+    }
   }
   
   /* Styles for large laptops/desktops (screen width between 1440px and 1920px) */

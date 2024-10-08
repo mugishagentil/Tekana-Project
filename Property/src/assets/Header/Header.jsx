@@ -37,7 +37,7 @@ function CollapsibleExample() {
             <div className="row row-two" id='Megamenu-container1'>
             <Tabs
       defaultActiveKey="landload"
-      id="uncontrolled-tab-example"
+      id="uncontrolled-tab-example mb-3"
       className="mb-3"
     >
       <Tab eventKey="landload" title="Landload">
@@ -45,45 +45,45 @@ function CollapsibleExample() {
         <div className="row">
         <div className="col-md-4">
             <Link to='/OnlineRent' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><MdCurrencyExchange id='Icon'/> <span id='mega-menu-header' >Online Rent Payments</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Simple, easy online rental collection for you and your tenants.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+       
             {/* Mega Piece Two */}
 
             <div className="col-md-4">
             <Link to='/maintenance' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><GrVmMaintenance  id='Icon'/> <span id='mega-menu-header' >Maintenance Request</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Manage work orders and your maintenance team all in one place.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+       
             {/* Mega Piece Three */}
              {/* Mega Piece Four */}
              <div className="col-md-4">
             <Link to='/Renter' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><TbDoorEnter id='Icon'/> <span id='mega-menu-header' >Renter's Insurance</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Protect yourself and your tenants now from future headaches.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+          
              {/* Mega Piece Four */}
              <div className="col-md-4">
              <Link to='/expenses' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><GiExpense id='Icon'/> <span id='mega-menu-header' >Expense & Reporting</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Understand your business better than ever before with insightful reports.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+           
              {/* Mega Piece Five */}
              </div>
              
@@ -92,7 +92,7 @@ function CollapsibleExample() {
         <div className="row">
       <div className="col-md-4">
              <Link to='/tenant' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><FaBookDead id='Icon'/> <span id='mega-menu-header' >Tenant Communication</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Message and communicate directly with your landlord in the Innago platform.</p>
             </div>
@@ -102,7 +102,7 @@ function CollapsibleExample() {
              {/* Mega Piece One */}
              <div className="col-md-4">
             <Link to='/credit' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><GiExpense id='Icon'/> <span id='mega-menu-header' >Tenant Credit Reporting</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Report your rent payments to the three credit bureaus to improve your credit score over time.</p>
             </div>
@@ -113,8 +113,7 @@ function CollapsibleExample() {
     </Tabs>
             
             
-            <hr className='col-divider'/>
-            <hr className='col-divider'/>
+           
             </div>
               </NavDropdown>
      {/* MegamenuTwo Featured Ends Here */}
@@ -126,67 +125,67 @@ function CollapsibleExample() {
            {/* Mega Piece One */}
            <div className="col-md-4">
             <Link to='/Residential' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><FaWarehouse id='Icon'/> <span id='mega-menu-header' >Residential Properties</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Better operate everything from multi-family to single-family renters as you grow your business in the bedrock of the US real estate market.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+          
             {/* Mega Piece Two */}
             <div className="col-md-4">
             <Link to='/Commercial' className='div-link'>
               
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><PiWarehouse id='Icon'/> <span id='mega-menu-header' >Commercial Properties</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Manage commercial tenants and real estate properties simply and effectively in a complex and evolving market. Residential Properties</p>
             </div>
            </Link>
             </div>
-             <hr className='col-divider'/>
+       
             {/* Mega Piece Three */}
             <div className="col-md-4">
             <Link to='/apartment' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><BiBuildingHouse id='Icon'/> <span id='mega-menu-header' >Apartment Properties</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Better operate everything from multi-family to single-family renters as you grow your business in the bedrock of the US real estate market.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+           
 
             {/* Mega Piece Four */}
             <div className="col-md-4">
             <Link to='/student' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><BiBuildingHouse id='Icon'/> <span id='mega-menu-header' >Student Properties</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Better operate everything from multi-family to single-family renters as you grow your business in the bedrock of the US real estate market.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+         
 
             {/* Mega Piece Five */}
             <div className="col-md-4">
             <Link to='/parking' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><BiBuildingHouse id='Icon'/> <span id='mega-menu-header' >Parking Properties</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Better operate everything from multi-family to single-family renters as you grow your business in the bedrock of the US real estate market.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+         
 
             {/* Mega Piece Six */}
             <div className="col-md-4">
             <Link to='/apartment' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><BiBuildingHouse id='Icon'/> <span id='mega-menu-header' >Apartment Properties</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Better operate everything from multi-family to single-family renters as you grow your business in the bedrock of the US real estate market.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+          
             {/* Mega Piece Four */}
             </div>
               </NavDropdown>
@@ -201,33 +200,32 @@ function CollapsibleExample() {
             {/* Mega Piece One */}
             <div className="col-md-4">
             <Link to='/credit' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><GiExpense id='Icon'/> <span id='mega-menu-header' >Tenant Credit Reporting</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Report your rent payments to the three credit bureaus to improve your credit score over time.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+           
             {/* Mega Piece Two */}
             <div className="col-md-4">
             <Link to='/privecy' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><GiExpense id='Icon'/> <span id='mega-menu-header' >Privecy And Policies</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Understand your business better than ever before with insightful reports.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
+          
             {/* Mega Piece Three */}
             <div className="col-md-4">
             <Link to='/expenses' className='div-link'>
-            <div className="container-fluid1">
+            <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><GiExpense id='Icon'/> <span className='mega-menu-header' >Expense & Reporting</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Understand your business better than ever before with insightful reports.</p>
             </div>
             </Link>
             </div>
-            <hr className='col-divider'/>
 
             </div>
               </NavDropdown>
