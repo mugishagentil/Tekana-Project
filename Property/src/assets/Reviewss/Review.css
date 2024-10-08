@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.review{
+    width: 70%;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(219, 219, 219, 0.2);
+    text-align: left;
+    justify-content: left;
+    background-color: #f2edf5;
+}
+.Review-Title{
+    text-align: center;
+    margin-top: 50px;
+}
+.myLine{
+    width: 40%;
+    margin-left: 30%;
+}
+.Stars{
+    font-size: 20px;
+}
+.myIcons{
+    font-size: 50px;
+    color: #4b48ac;
+}
+.name{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(89, 89, 89);
+}
+.swiper-wrapper{
+    padding-left: 20px;
+    
+}
+.Slider{
+    width: 94%;
+    margin-top: 60px;
+    margin-bottom: 300px;
+    z-index: 6;
+}
+.already-love{
+    font-size: 15px;
+    width: 17%;
+    background-color: #f2edf5;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+.our-users{
+    font-size: 55px;
+    margin-left: 23%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Users-div{
+    width: 65%;
+    margin-left: 15%;
+    margin-top: -30px;
+}
+.swiper-slide{
+    padding-left: 55px;
+}
+/* Responsive Part */
+
+@media (max-width: 600px){
+    .review{
+        width: 80%;
+        margin: 0;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 3px rgba(219, 219, 219, 0.2);
+        text-align: center;
+        justify-content: center;
+        background-color: #f5f2ed;
+    }
+    .Stars{
+        font-size: 15px;
+    }
+    .myIcons{
+        font-size: 20px;
+        color: #2676ff;
+    }
+    .name{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(89, 89, 89);
+    }
+    .Slider{
+        width: 94%;
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+    .already-love{
+        font-size: 10px;
+        width: 47%;
+        background-color: #e3e3e3;
+        border-radius: 30px;
+        padding: 5px;
+        margin-left: 25%;
+        margin-top: 40px;
+    }
+    .our-users{
+        font-size: 20px;
+        margin-left: 10%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .swiper-slide{
+        padding-left: 25px;
+    }
+}
+@media (min-width: 700px) and (max-width: 1025px){
+    .review{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 3px rgba(219, 219, 219, 0.2);
+        text-align: center;
+        justify-content: center;
+        background-color: #f5f2ed;
+    }
+    .Stars{
+        font-size: 15px;
+    }
+    .myIcons{
+        font-size: 20px;
+        color: #4b48ac;
+    }
+    .name{
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(89, 89, 89);
+    }
+    .Slider{
+        width: 94%;
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+    .swiper-slide{
+        padding-left: 30px;
+    }
+    .already-love{
+        font-size: 15px;
+        width: 33%;
+        background-color: #e3e3e3;
+        border-radius: 30px;
+        padding: 5px;
+        margin-left: 35%;
+        margin-top: 40px;
+    }
+    .our-users{
+        font-size: 50px;
+        margin-left: 17%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+

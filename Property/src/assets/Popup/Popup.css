@@ -1,0 +1,61 @@
+.mobile-close-btn {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #pop-div{
+    height: 85vh;
+    padding-bottom: 10px;
+  }
+  #why-property{
+    font-size: 20px;
+  }
+  #property-managers{
+    font-size: 15px;
+  }
+  #name{
+    font-size: 13px;
+  }
+  #email{
+    font-size: 13px;
+  }
+  #location{
+    font-size: 13px;
+  }
+  #number{
+    font-size: 13px;
+  }
+
+  @media (max-width: 768px) {
+    .mobile-close-btn {
+      display: block;
+    }
+    #pop-div{
+      height: 95vh;
+      padding-bottom: 10px;
+    }
+    #why-property{
+      font-size: 15px;
+    }
+    #property-managers{
+      font-size: 10px;
+    }
+    #name{
+      font-size: 10px;
+    }
+    #email{
+      font-size: 10px;
+    }
+    #location{
+      font-size: 10px;
+    }
+    #number{
+      font-size: 10px;
+    }
+  }
+  

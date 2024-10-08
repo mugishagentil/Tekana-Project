@@ -1,0 +1,62 @@
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .my-PopupContent{
+    text-align: start;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-btn {
+    background-color: #4b48ac;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .login-btn:hover {
+    background-color: #3b38ac;
+  }
+  @media (max-width: 600px){
+     .popup-box{
+      width: 350px;
+    }
+  }
+  

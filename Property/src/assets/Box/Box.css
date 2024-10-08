@@ -1,0 +1,152 @@
+/* Main Part Style */
+.Property{
+    font-size: 25px;
+    padding-left: 10px;
+    color: #4b48ac;
+    transition: color 0.3s ease-in-out;
+}
+.Property:hover {
+    color: #000000;
+}
+.Image-Box{
+    display: flex;
+    color: #4b48ac;
+    gap: 20px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards ease-in-out;
+}
+/* Responsive Part */
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes popupScale {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+/* Animation */
+.Read-Btn{
+    padding: 15px 30px;
+    background-color: #4b48ac;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.Read-Btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Read-Btn:active {
+    transform: scale(0.95);
+}
+.Card-Conatiner{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    animation: slideUp 1.2s ease-out;
+}
+.Card-Col{
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.Card-Col:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.Card-Col:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(75, 72, 172, 0.051);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.rental-div{
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+@media (max-width: 600px){
+    .Property{
+        font-size: 15px;
+    }
+    .Image-Box{
+        gap: 5px;
+        margin-top: -100px;
+    }
+    .Image-Box {
+        margin-top: 30px;
+    } 
+    .Card-Conatiner{
+        padding-left: 40px;
+    }
+    .Card-Col{
+        margin-bottom: 10px;
+    }
+    .rental-div{
+        margin-top: -150px;
+        padding-bottom: 20px;
+    }
+}
+   
+@media (min-width: 700px) and (max-width: 1025px){
+    .Card{
+        margin-left: 100px;
+        gap: 10px;
+    }
+    .col-md-2{
+        margin-right: 50px;
+        border: none;
+    }
+    .Image-Box{
+        display: flex;
+        color: #4b48ac;
+        gap: 10px;
+        margin: 0;
+        align-items: center;
+        gap: 100px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .Card-Conatiner{
+        padding-left: 60px;
+    }
+    .rental-div{
+        margin-top: -250px;
+        padding-bottom: 20px;
+    }
+   
+}

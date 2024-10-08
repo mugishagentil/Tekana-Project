@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.online-container{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    overflow: hidden;
+}
+.leftside-container{
+    width: 50%;
+    padding-left: 150px;
+    animation: slideInLeft 1.5s ease-in-out forwards;
+}
+.rightside-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+/* Left-container-side */
+.online-rental1{
+    background-color: #4B48AC;
+    color: white;
+    padding: 10px; border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+}
+.OnlineHomeImg{
+    width: 500px;
+    height: 500px;
+    margin: -120px 0 0 20px;
+    transition: transform 0.5s ease-in-out;
+}
+.OnlineHomeImg:hover {
+    transform: scale(1.05);
+}
+
+/* Down-container */
+.contant-container{
+    width: 80%;
+    margin: 150px 0 0 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Animation for leftside content */
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Animation for rightside image */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* responsive */
+@media (min-width: 300px) and (max-width: 900px){
+    
+    .online-container{
+        display: block;
+        margin-top: 40px;
+    }
+    .leftside-container{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .leftside-container{
+        width: 100%;
+    }
+    .online-rental1{
+        width: 100%;
+    }
+    .OnlineHomeImg{
+        width: 300px;
+        height: 400px;
+        margin: -50px 0 0 170px;
+    }
+   
+    
+    
+}
+@media (min-width: 700px) and (max-width: 1023px){
+    .online-container{
+        display: flex;
+        margin-top: 100px;
+    }
+    .leftside-container{
+        width: 50%;
+        padding-left: 30px;
+    }
+    .leftside-container{
+        width: 50%;
+    }
+    .online-rental1{
+        width: 100%;
+    }
+    .OnlineHomeImg{
+        width: 300px;
+        height: 400px;
+        margin: -50px 0 0 50px;
+    }
+    .OnlineHomeImg{
+        margin-left: 15px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1370px){
+    .leftside-container{
+        padding: 20px;
+    }
+    .HomeImg{
+        width: 400px;
+        height: 450px;
+        margin: 30px 0 0 50px;
+    }
+    .online-rental{
+        width: 65%;
+        padding: 10px; 
+        font-size: 20px;
+    }
+    .contant-container{
+        width: 80%;
+        margin: 150px 0 0 100px;
+        text-align: center;
+        justify-content: center;
+    }
+}
+/* @media (min-width: 1280px) and (max-width: 1440px) */
+@media (min-width: 1300px) and (max-width: 1440px){
+    .leftside-container{
+        padding-left: 70px;
+    }
+}

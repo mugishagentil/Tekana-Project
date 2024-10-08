@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+}
+.Price-Content{
+    text-align: center;
+    margin-top: 100px;
+}
+.Simple{
+    font-size: 40px;
+    font-weight: 700;
+}
+.Pricing{
+    width: 800px;
+    height: 700px;
+}
+.Accordion-item{
+    margin-bottom: 5px;
+}
+.Pricing-Icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    margin: 50px 0 30px 0;
+}
+.myIcon{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.Setup{
+    font-size: 25px;
+}
+/* Down side */
+.Every-Feature{
+    font-size: 40px;
+}
+.span-Feature{
+    font-size: 50px;
+    font-weight: 900;
+}
+.Dropdown-section{
+    width: 90%;
+    margin: 50px 0 0 78px;
+}
+
+/* Animation */
+.slide-right {
+    animation: 3s slide-right;
+  }
+  @keyframes slide-right {
+    from {
+      margin-top: -10%;
+    }
+    to {
+      margin-top:0%;
+    }
+  }
+@keyframes appear{
+    from { 
+     opacity: 0;
+     scale: 0.3;
+    }
+    to{
+     opacity: 1;
+     scale: 1;
+    }
+ }
+ .Block{
+     animation: appear linear;
+     animation-timeline: view();
+     animation-range: entry 0% cover 40%;
+ }
+/* FAQ */
+/* Dropdownl */
+
+.faq-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .faq-list {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #bababa;
+    padding: 5px;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 0;
+  }
+  
+  .faq-answer {
+    padding: 10px 0;
+    font-size: 19px;
+    color: #4b48ac;
+    background-color: #dfdfdf;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .faq-question h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .faq-question span {
+    font-size: 20px;
+  }
+  
+@media (min-width: 300px) and (max-width: 900px){
+    *{
+        padding: 5px;
+    }
+    .Price-Content{
+        margin-top: 20px;
+    }
+    .Pricing{
+        width: 300px;
+        height: 250px;
+    }
+    .Pricing-Icons{
+        gap: 10px;
+    }
+    .myIcon{
+        font-size: 30px;
+        margin-right: 5px;
+        color: #4b48ac;
+    }
+    .Setup{
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    /* down side */
+    .Every-Feature{
+        font-size: 18px;
+    }
+    .span-Feature{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    /* dropdown */
+    .Dropdown{
+        width: 100%;
+        margin-left: 0;
+    }
+    .Description{
+        width: 50%;
+    }
+    .Free-One{
+        width: 25%;
+    }
+    .Free-Two{
+        width: 25%;
+    }
+    .Dropdown-Pricing{
+        width: 95%;
+        margin-left: 10PX;
+    }
+}
+@media (min-width: 700px) and (max-width: 1023px){
+    .Price-Content{
+        margin-top: 40px;
+    }
+    .Pricing{
+        width: 500px;
+        height: 450px;
+    }
+    .Pricing-Icons{
+        gap: 20px;
+    }
+    .myIcon{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    .Setup{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+}

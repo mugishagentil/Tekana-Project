@@ -1,0 +1,145 @@
+/* General styles */
+.privecy {
+    padding: 70px;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    animation: slide-in 1.5s ease-out;
+}
+
+/* Text and heading styles */
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4b48ac;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+/* Link styles */
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-link:hover .logo {
+    color: #6a67d8;
+}
+
+.privacy-header {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #333;
+    position: relative;
+    animation: fade-down 1.2s ease-in-out;
+}
+
+.HeaderOne {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #555;
+    margin-top: 20px;
+    animation: fade-in 2s ease;
+}
+
+.privecy-content p {
+    font-size: 1rem;
+    color: #666;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    animation: fade-in 2s ease;
+}
+
+/* Animations */
+@keyframes slide-in {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effects */
+.logo-link:hover .logo {
+    color: #6c63ff;
+    transform: scale(1.05);
+}
+
+.privecy-content {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-in 1.5s ease forwards;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+    .privecy {
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .privacy-header {
+        font-size: 1.6rem;
+    }
+
+    .HeaderOne {
+        font-size: 0.9rem;
+    }
+
+    .privecy-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .privecy {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .privacy-header {
+        font-size: 1.2rem;
+    }
+
+    .HeaderOne {
+        font-size: 0.75rem;
+    }
+
+    .privecy-content p {
+        font-size: 0.8rem;
+    }
+}

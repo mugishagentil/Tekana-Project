@@ -1,0 +1,141 @@
+.About-Container{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+.About-Tekana{
+    font-size: 30px;
+}
+.Left-About{
+   padding: 40px
+}
+.Right-About{
+    
+}
+.row-1{
+    width: 100%;
+    display: flex;
+}
+.col-1{
+width: 50%;
+}
+.col-2{
+    width: 50%;
+}
+.mb2{
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+}
+.Left-About button{
+    color: black;
+}
+.Left-About button:hover{
+    color: #4b48ac;
+}
+.Tekana-Paragraph{
+    font-size: 18px;
+}
+
+
+/* Responsive Part */
+
+ /* Mobile devices (landscape), small tablets */
+ @media (max-width: 768px) {
+    .About-Container{
+        margin-top: -180px;
+    }
+    .Left-About{
+        padding: 10px
+     }
+     ul li{
+        font-size: 13px;
+     }
+     .nav-item button{
+        padding: 1px;
+     }
+    .Card-Col{
+        margin-left: 25px;
+    }
+    .row-1{
+        display: block;
+    }
+ }
+ @media (min-width: 1020px) and (max-width: 1280px) {
+    .About-Container{
+        margin-top: 100px;
+    }
+    .Left-About{
+        padding: 10px;
+     }
+     .nav-item button{
+        padding: 10px;
+     }
+    .Card-Col{
+        margin-left: 30px;
+    }
+  }
+ 
+/* Styles for medium laptops (screen width between 1280px and 1440px) */
+/* @media (min-width: 1280px) and (max-width: 1440px) */
+@media (min-width: 1302px) and (max-width: 1440px) {
+    .About-Container{
+        margin-top: -150px;
+    }
+    .Left-About{
+        padding-right: 20px;
+     }
+     .nav-item button{
+        padding: 10px;
+     }
+    .Card-Col{
+        margin-left: 30px;
+    }
+    .row{
+        display: flex;
+    }
+    .About-Tekana{
+        font-size: 23px;
+    }
+    .Tekana-Paragraph{
+        font-size: 16px;
+    }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1300px) {
+    .About-Container{
+        margin-top: -150px;
+    }
+    .Left-About{
+        padding-right: 20px;
+     }
+     .nav-item button{
+        padding: 10px;
+     }
+    .Card-Col{
+        margin-left: 30px;
+    }
+    .row{
+        display: flex;
+    }
+    .About-Tekana{
+        font-size: 23px;
+    }
+    .Tekana-Paragraph{
+        font-size: 16px;
+    }
+  }
+  
+  /* Styles for large laptops/desktops (screen width between 1440px and 1920px) */
+  @media (min-width: 1440px) and (max-width: 1920px) {
+    .About-Container{
+        margin-top: 100px;
+    }
+    .Left-About{
+        padding: 5px;
+     }
+  }
+  
+  /* Styles for extra-large desktops (screen width greater than 1920px) */
+  @media (min-width: 1920px) {
+    /* Your styles here for extra-large desktops */
+  }
+  

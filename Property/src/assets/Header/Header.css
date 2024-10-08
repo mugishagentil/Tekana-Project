@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Megamenu Featured Style Start Here */
+#Megamenu-container1{
+    width: 1000px;
+    padding: 15px;
+    flex-wrap: wrap;
+    border: 1px solid rgb(197, 197, 197);
+    background-color: white;
+    border-radius: 10px;
+    margin-left: -190px;
+    margin-top: 18px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    transform: translateX(-20px);    
+}
+
+#Megamenu-container2{
+    width: 1000px;
+    padding: 15px;
+    flex-wrap: wrap;
+    border: 1px solid rgb(197, 197, 197);
+    background-color: white;
+    border-radius: 10px;
+    margin-left: -290px;
+    margin-top: 18px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    transform: translateX(-20px); 
+}
+#Megamenu-container3{
+    width: 1000px;
+    padding: 15px;
+    flex-wrap: wrap;
+    border: 1px solid rgb(197, 197, 197);
+    background-color: white;
+    border-radius: 10px;
+    margin-left: -500px;
+    margin-top: 18px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    transform: translateY(-20px); 
+}
+.nav-item:hover #Megamenu-container1,
+.nav-item:hover #Megamenu-container2,
+.nav-item:hover #Megamenu-container3 {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 300px; /* Adjust this as needed */
+    overflow-y: auto; 
+}
+.div-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.div-link:hover {
+    color: #4b48ac;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+#collapsible-nav-dropdown{
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    color: black;
+    padding-left: 25px;
+}
+#collapsible-nav-dropdown::after {
+    content: '▼';
+    font-size: 8px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+.nav-item:hover #collapsible-nav-dropdown::after {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu.show {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(245, 245, 220, 0);
+    transition: all 0.5s ease-in-out;
+}
+.div-link{
+    text-decoration: none;
+    color: black;
+}
+
+.container-fluid1{
+    border: none;
+    background-color: rgba(229, 229, 229, 0.092);
+    border-radius: 5px;
+}
+#navBar{
+    height: 100px;
+    background-color: #FFF6EA;
+}
+.col-md-4{
+    width: 320px;
+    position: relative;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+}
+.col-md-4:hover {
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f8fc;
+    transform: translateY(-10px);
+}
+.me-auto{
+    margin-left: 150px;
+}
+.signIn-Button{
+    font-size: 800;
+    color: black;
+    
+    margin-top: 5px;
+}
+.SignUp-Button{
+    border: 1px solid #4b48ac;
+    border-radius: 5px;
+    background-color: #4b48ac;
+    text-decoration: none;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 10px 25px;
+    transition: background-color 0.4s ease, transform 0.3s ease;
+    
+}
+.SignUp-Button:hover {
+    background-color: #3a3b7e;
+    transform: scale(1.1);
+}
+#Icon{
+    color: #4b48ac;
+    font-size: 40px;
+    padding-top: 10px;
+    transition: transform 0.3s ease;
+} 
+.Icon:hover {
+    transform: rotate(360deg);
+}  
+#mega-menu-header{
+    font-size: 13px;
+    color: black;
+}
+.mega-manu-paragraph{
+    margin-left: 43px;
+    font-size: 12px;
+    margin-top: -15px;
+    color: #5e5e5ed7;
+}
+/* Megamenu Featured Style Ends Here */
+
+
+/* MegamenuTwo Property Type Style Start Here */
+.row-two{
+    width: 530px;
+}
+.Icon2{
+    color: black;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.mega-menu-header2{
+    font-size: 15px;    
+}
+.mega-manu-paragraph2{
+    margin-left: 30px;
+    font-size: 13px;
+    margin-top: -15px;
+}
+.col-md-3{
+    width: 250px;
+}
+.col-divider{
+    display: none;
+}
+/* MegamenuTwo Property Type Style Ends Here */
+
+/* logo */
+.Logo1{
+    width: 100px;
+    height: 80px;
+    transition: transform 0.3s ease;
+}
+
+.row button{
+    color: #000000;
+}
+.row button:hover{
+    color: #4b48ac;
+}
+
+/* Responsive Part */
+@media (min-width: 300px) and (max-width: 900px){
+    .navbar-collapse{
+       margin-top: -15px;
+       width: 100%;
+       max-height: 70vh; /* Set a maximum height for the collapsible navbar */
+        overflow-y: auto; /* Enable scrolling */
+        -webkit-overflow-scrolling: touch; 
+       background-color: white;
+       padding: 0 0 15px 10px;
+    }
+    #collapsible-nav-dropdown{
+        padding-left: 1px;
+    }
+    .navbar-toggler-icon{
+        margin-top: 30px;
+    }
+    .navbar-toggler-icon:hover{
+        border: none;
+    }
+    .Logo1{
+       margin-top: -30px;
+    }
+    #Megamenu-container1{
+        width: 330px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    #Megamenu-container2{
+        width: 330px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    #Megamenu-container3{
+        width: 330px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    .me-auto{
+        margin-left: 3px;
+    }
+    .col-divider{
+        display: block;
+        margin-left: 2px;
+    }
+    #navBar{
+        height: 50px;
+    }
+    .SignUp-Button{
+        font-Weight:'200';
+        width: 300px;
+        padding: '10px 10px 10px 10px';
+        margin-bottom: 50px;
+    }  
+    #my-nav{
+        margin-top: -60px;
+    }
+   
+}
+@media (min-width: 700px) and (max-width: 1023px){
+    #Megamenu-container1{
+        width: 600px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    #Megamenu-container2{
+        width: 600px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    #Megamenu-container3{
+        width: 600px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+    .me-auto{
+        margin-left: 5px;
+    }
+    #IconHeader{
+       font-size: 10px;
+    }
+   p{
+    font-size: 12px;
+   }
+   .Icon{
+    color: black;
+    font-size: 35px;
+    padding-top: 10px;
+}
+.mega-menu-header{
+    font-size: 13px;
+}
+.mega-manu-paragraph{
+    margin-left: 37px;
+    font-size: 13px;
+    margin-top: -15px;
+}
+
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1370px){
+    #Megamenu-container1{
+        width: 700px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: -100px;
+        margin-top: 10px;
+    }
+    #Megamenu-container2{
+        width: 700px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: -200px;
+        margin-top: 10px;
+    }
+    #Megamenu-container3{
+        width: 700px;
+        padding: 15px;
+        flex-wrap: wrap;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 10px;
+        margin-left: -400px;
+        margin-top: 10px;
+    }
+}
+

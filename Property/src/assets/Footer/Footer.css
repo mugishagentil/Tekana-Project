@@ -1,0 +1,169 @@
+
+.Request-Access{
+    width: 85%;
+    display: flex;
+    height: 40vh;
+    border: none;
+    border-radius: 20px;
+    background-color: #4b48ac;
+    margin-left: 100px;
+    margin-top: -160px;
+    position: absolute;
+    color: white;
+}
+.footer{
+    padding-top: 250px;
+}
+.Left-Request{
+    width: 50%;
+    padding: 80px 0 0 70px;
+}
+
+.Right-Request{
+    width: 50%;
+    padding-top: 80px;
+}
+.Subscribe{
+    padding: 15px;
+    width: 500px;
+    border: none;
+    margin-bottom: 10px;
+}
+.Subscribe-Btn{
+    width: 500px;
+    padding: 15px;
+    background-color: #2676ff00;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: white;
+}
+.Subscribe-Btn:hover{
+    background-color: rgb(37, 64, 164);
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgb(175, 175, 175);
+}
+/* Footer Css */
+.CardOne{
+    padding-left: 80px;
+}
+.footer-line{
+    width: 80%;
+    color: #d7d9db;
+    margin-left: 100px;
+}
+.social-icon{
+    margin-left: 10px;
+}
+.copy-rigtht{
+    margin-left: 85px;
+}
+
+@media (min-width: 300px) and (max-width: 900px){
+    *{
+        padding: 0;
+    }
+    .Request-Access{
+        width: 95%;
+        display: block;
+        height: 42vh;
+        border: none;
+        border-radius: 10px;
+        background-color: #4b48ac;
+        margin-left: 5px;
+        margin-top: -120px;
+        position: absolute;
+        color: white;
+    }
+    .Request-Header{
+        font-size: 20px;
+    }
+    .Left-Request{
+        width: 100%;
+        padding: 20px 0 0 10px;
+    }
+    .Right-Request{
+        width: 100%;
+        padding: 1px 0 0 10px;
+    }
+    
+    .Subscribe{
+        padding: 10px;
+        width: 330px;
+        border: none;
+        margin-bottom: 10px;
+    }
+    .Subscribe-Btn{
+        width: 330px;
+        padding: 15px;
+    }
+    .CardOne{
+        padding-left: 2px;
+    }
+    .footer-line{
+        width: 80%;
+        color: #d7d9db;
+        margin-left: 15px;
+    }
+    .copy-rigtht{
+        margin-left: 16px;
+    }
+}
+@media (min-width: 700px) and (max-width: 1023px){
+    .Request-Access{
+        width: 85%;
+        display: block ;
+        height: 22vh;
+        border: none;
+        border-radius: 20px;
+        background-color: #4b48ac;
+        margin-left: 60px;
+        margin-top: -110px;
+        position: absolute;
+        color: white;
+    }
+    .Left-Request{
+        width: 100%;
+        text-align: center;
+        padding: 1px 0 0 10px;
+    }
+    .Right-Request{
+        width: 100%;
+        text-align: center;
+        padding: 1px 0 0 10px;
+    }
+    .CardOne{
+        padding-left: 2px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1370px){
+    .CardOne{
+        padding-left: 80px;
+    }
+}
+@media (min-width: 820px) and (max-width: 1180px){
+    .Request-Access{
+        width: 85%;
+        display: flex ;
+        height: 22vh;
+        border: none;
+        border-radius: 20px;
+        background-color: #4b48ac;
+        margin-left: 60px;
+        margin-top: -110px;
+        position: absolute;
+        color: white;
+    }
+    .Left-Request{
+        width: 100%;
+        text-align: left;
+        padding: 80px 0 0 10px;
+    }
+    .Right-Request{
+        width: 100%;
+        text-align: center;
+        padding: 60px 10px 0 10px;
+    }
+    .CardOne{
+        padding-left: 2px;
+    }
+}

@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Left-Row{
+    padding: 100px 0 0 50px;
+}
+/* Left-container-side */
+.online-rental{
+    background-color: #4B48AC;
+    color: white;
+    padding: 10px; border-radius: 5px;
+    width: 47%;
+    font-size: 20px;
+}
+.HomeImg{
+    width: 500px;
+    height: 500px;
+    margin: 10px 0 0 20px;
+}
+.HomeImgTwo{
+    width: 1000px;
+    height: 800px;
+    margin: -100px 0 0 20px;
+}
+.middle-container{
+    width: 85%;
+    background-color: #eef1f6;
+    border-radius: 20px;
+    margin-left: 120px;
+}
+
+/* Down-container */
+.contant-container{
+    width: 80%;
+    margin: 150px 0 0 150px;
+    text-align: center;
+    justify-content: center;
+}
+.collectionImg{
+    width: 80%;
+}
+.long-term{
+    background-color: #4B48AC;
+    color: white;
+    padding: 10px; border-radius: 5px;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+/* Animation */
+.slide-right {
+    animation: 3s slide-right;
+  }
+  @keyframes slide-right {
+    from {
+      margin-top: -10%;
+    }
+    to {
+      margin-top:0%;
+    }
+  }
+@keyframes appear{
+    from { 
+     opacity: 0;
+     scale: 0.3;
+    }
+    to{
+     opacity: 1;
+     scale: 1;
+    }
+ }
+ .Block{
+     animation: appear linear;
+     animation-timeline: view();
+     animation-range: entry 0% cover 40%;
+ }
+/* responsive */
+@media (min-width: 300px) and (max-width: 900px){
+    *{
+        padding: 2px;
+        margin: 0;
+    }
+    .Left-Row{
+        padding: 30px 0 0 5px;
+    }
+    .HomeImg{
+        width: 300px;
+        height: 400px;
+        margin: -50px 0 0 -10px;
+    }
+    .HomeImg2{
+        display: none;
+    }
+    .online-rental{
+        width: 80%;
+        padding: 6px; 
+        font-size: 20px;
+    }
+    .contant-container{
+        width: 100%;
+        margin: 150px 0 0 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .HomeImgTwo{
+        display: none;
+        
+    }
+    .middle-container{
+        width: 90%;
+       margin-left: 20px;
+    }
+    .collectionImg{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .long-term{
+        width: 60%;
+        margin-left: 75px;
+    }
+}
+@media (min-width: 700px) and (max-width: 1023px){
+    .Left-Row{
+        padding: 70px 0 0 1px;
+    }
+    .HomeImg{
+        width: 300px;
+        height: 400px;
+        margin: 30px 0 0 50px;
+    }
+    .online-rental{
+        width: 90%;
+        padding: 10px; 
+        font-size: 20px;
+    }
+    .middle-container{
+        width: 90%;
+       margin-left: 40px;
+       margin-top: 60px;
+    }
+    .collectionImg{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .long-term{
+        width: 60%;
+        margin-left: 150px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1370px){
+    .Left-Row{
+        padding: 70px 0 0 1px;
+    }
+    .HomeImg{
+        width: 400px;
+        height: 450px;
+        margin: 30px 0 0 50px;
+    }
+    .online-rental{
+        width: 65%;
+        padding: 10px; 
+        font-size: 20px;
+    }
+    .contant-container{
+        width: 80%;
+        margin: 150px 0 0 100px;
+        text-align: center;
+        justify-content: center;
+    }
+    .middle-container{
+        width: 90%;
+       margin-left: 50px;
+       padding-left: 10px;
+    }
+    .collectionImg{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .long-term{
+        width: 60%;
+        margin-left: 150px;
+    }
+}
