@@ -50,7 +50,7 @@ function Commercial2() {
     </div>
     <Popup/>
     <div className="right-Customer">
-    <Col><img src={HomeImg} alt="" className='HomeImg Block'/></Col>
+    <Col><img src={HomeImg} alt="" className='HomeImg Block' id='myImage'/></Col>
     </div>
    </div>
 

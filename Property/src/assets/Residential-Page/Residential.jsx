@@ -50,7 +50,7 @@ function Commercial() {
         <p style={{fontSize: '18px'}} className='Block'>Many landlords use multiple bank accounts and formulate more than one LLC. Innago allows you to add as many accounts as you need and assign them on a property-by-property basis.</p>
     </div>
     <div className="right-Customer">
-    <Col><img src={HomeImg} alt="" className='HomeImg Block'/></Col>
+    <Col><img src={HomeImg} alt="" className='HomeImg Block' id='myImage'/></Col>
     </div>
    </div>
 

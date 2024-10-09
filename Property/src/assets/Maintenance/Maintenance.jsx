@@ -11,6 +11,7 @@ import { MdVerified } from "react-icons/md";
 import '../Commercial/Commercial.css'
 import Popup from "../Popup/Popup.jsx";
 import Form from 'react-bootstrap/Form';
+import './Maintenance.css'
 
 function Commercial2() {
   return (
@@ -33,8 +34,8 @@ function Commercial2() {
 
     <Container>
       {/* Component-One */}
-      <Row>
-      <Col><img src={Img} alt="" className='HomeImg Block'/></Col>
+      <Row id='Create-Dev'>
+      <Col><img src={Img} alt="" className='HomeImg Block'  /></Col>
         <Col className='Left-Row'>
         <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>Creating <br /> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px', fontWeight: '800'}}>Work Orders</span></h2>
         <h3>Upload Images and Video</h3>
@@ -57,7 +58,7 @@ function Commercial2() {
          
     </div>
     <div className="right-Customer">
-    <Col><img src={HomeImg} alt="" className='HomeImg Block'/></Col>
+    <Col><img src={HomeImg} alt="" className='HomeImg Block' id='myImage'/></Col>
     </div>
    </div>
 

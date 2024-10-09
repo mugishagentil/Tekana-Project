@@ -40,7 +40,7 @@ function Component1() {
         <h2 className='Block'>Renter Credit Reporting Saves<br></br>
        You  <span style={{fontWeight: '700'}}> Money Later</span>
         </h2>
-        <p style={{fontSize: '20px', color: '#616161'}} className='Block'>Building a better credit score means you'll have access to more loans with better
+        <p className='Block'>Building a better credit score means you'll have access to more loans with better
         interest rates when it's time to buy that new car or move into your starter home. Don't let
         your rent go to waste. Put it to work to help build your future..</p>
         <img src={Img} alt="" className='HomeImgTwo Block'/>
