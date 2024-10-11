@@ -23,12 +23,10 @@ function Component1() {
     <div className="online-container">
     <div className="leftside-container">
       <h3 className='online-rental1'>TENANT COMMUNICATION</h3>
-      <h1>Innago Makes <br /> 
+      <h1>Tekana Enhances <br /> 
       <span style={{fontWeight: '700', color: '#4B48AC'}}>Tenant 
-      Communication</span> Matter</h1>
-      <p>Chat directly, post community announcements, leverage
-      automation, and manage multiple communication channels
-      from a single, seamlessly connected interface.</p>
+      Communication</span> Effectively.</h1>
+      <p>Engage in direct chats, share community announcements, automate messages, and manage various communication channels—all from one streamlined, connected platform.</p>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>
@@ -37,10 +35,9 @@ function Component1() {
 
     <div className="contant-container">
     <h2 className='long-term Block'>CHAT & ANNOUNCEMENTS</h2>
-        <h2 className='Block'>Build A Community Around Conversation</h2>
-        <p style={{fontSize: '20px', color: '#616161'}} className='Block'>Innago makes it easy to share announcements with your tenants. Got an upcoming
-        community barbecue? Let everyone know with just a few clicks. Encourage engagement with
-        likes and comments, and chat directly when the conversation needs to go private.</p>
+        <h2 className='Block'>
+        Foster a sense of community by keeping tenants informed and engaged</h2>
+        <p style={{fontSize: '20px', color: '#616161'}} className='Block'>With Tekana, sharing announcements with your tenants is a breeze. Hosting a community event? Spread the word with just a few clicks. Foster engagement with likes and comments, or switch to direct chat for private conversations.</p>
         <img src={Img} alt="" className='HomeImgTwo Block'/>
        </div>
    {/* Legal/Organization */}
@@ -48,16 +45,13 @@ function Component1() {
     <div className='Left-Organization'>
     <h2 className='online-rental Block'>LEGAL/ORGANIZATION</h2>
     <h2 className='Block'>Know Where Your <br />Records Are When You <br />Need Them</h2>
-    <p>Innago stores all communication records between you and
-    your tenant so you can easily get to the bottom of a dispute.
-    Signed documents, files, insurance policies and anything else
-    you need are all accessible for you on a single platform.</p>
+    <p>Tekana keeps a detailed record of all communication between you and your tenants, ensuring that you can easily resolve any disputes. Access signed documents, files, insurance policies, and more—all from a single, convenient platform.</p>
     </div>
     <div className='Right-Organization'>
     <img src={HomeImg} alt="" className='HomeImgs Block'/>
     </div>
    </div>
-   <Popup/>
+   {/* <Popup/> */}
 
    <div className="contant-container">
     <h2 className='long-term Block'>AUTOMATION</h2>

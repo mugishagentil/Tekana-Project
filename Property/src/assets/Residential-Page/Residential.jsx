@@ -42,7 +42,7 @@ function Commercial() {
       {/* Component-Two */}
       {/* Component-Three */}
     </Container>
-    <Popup/>
+    {/* <Popup/> */}
 
    <div className='Custom-Leases'>
     <div className="left-Customer">

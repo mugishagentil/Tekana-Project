@@ -44,7 +44,7 @@ function Student() {
       {/* Component-Two */}
       {/* Component-Three */} 
     </Container>
-    <Popup/>
+    {/* <Popup/> */}
 
     <div className="contant-container" style={{marginBottom: '150px'}}>
         <h2 className='Block'>Simple, Automated Billing <br></br>

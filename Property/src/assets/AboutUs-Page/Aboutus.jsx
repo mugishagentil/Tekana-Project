@@ -127,7 +127,7 @@ function Aboutus() {
         <p>Investor</p>
        </div>
       </div>
-      < Popup/>
+      {/* < Popup/> */}
       <Reviews/>
       <Footer/>
     </>

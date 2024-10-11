@@ -48,7 +48,7 @@ function Commercial2() {
 
         <p style={{fontSize: '18px'}} className='Block'>Fortunately, Tekana allows you to add any number of custom lease agreements to be signed in digitally. And any leases signed offline can be uploaded into the system so your contract is never far from reach.</p>
     </div>
-    <Popup/>
+    {/* <Popup/> */}
     <div className="right-Customer">
     <Col><img src={HomeImg} alt="" className='HomeImg Block' id='myImage'/></Col>
     </div>

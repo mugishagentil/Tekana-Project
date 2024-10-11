@@ -13,11 +13,11 @@ function Component2() {
       <Row>
       <Col><img src={Img} alt="" className='HomeImg Block'/></Col>
         <Col className='Left-Row'>
-        <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>Never Miss a <br></br> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px'}}>Payment Again</span></h2>
+        <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>Never Miss a <br></br> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px'}}>Payment Anymore</span></h2>
         <h2 className='Block'>Automated Payments</h2>
-        <p style={{fontSize: '18px', color: '#4f4f4f'}} className='Block'>Tenants love signing up for automated rent payment, and you’ll love it when they do too. Fewer tenants will forget to pay and more rental payments will come in on time.</p>
-        <h2 className='Block'>Payment Reminder Alerts</h2>
-        <p className='Block'>Tenants receive automatic reminders and notifications when rent is due. A convenient pay now button within the email makes submitting payments on time easy, all it takes is a simple click.</p>
+        <p style={{fontSize: '18px', color: '#4f4f4f'}} className='Block'>Tenants enjoy the ease of setting up automated rent payments, and you'll appreciate it too. Fewer missed payments mean more on-time rent collections, making your job a breeze.</p>
+        <h2 className='Block'>Timely Payment Reminders</h2>
+        <p className='Block'>Tenants get automatic reminders when rent is due, along with a handy "Pay Now" button in the email. Making timely payments is simple and just a click away.</p>
         </Col>
       </Row>
       {/* Component-Two */}

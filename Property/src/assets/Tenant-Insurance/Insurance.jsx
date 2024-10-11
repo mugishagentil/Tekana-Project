@@ -57,7 +57,7 @@ function Component1() {
     </p>
         <img src={Img} alt="" className='HomeImgTwo Block'/>
        </div>
-       <Popup/>
+       {/* <Popup/> */}
 
        <Container>
       {/* Component-One */}

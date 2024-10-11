@@ -77,8 +77,9 @@
 
 /* Resiponsive */
 @media (min-width: 300px) and (max-width: 900px){
-    .mb{
-        margin: 20px 0 0 80px;
+    .mb-3{
+        width: 90%;
+        margin: 20px 0 0 20px;
     }
     .myContainer{
         width: 100%;
@@ -107,12 +108,15 @@
         margin: 20px 0 -50px 10px;
     }
     .Apartment-Card{
-        width: 18rem;
+        width: 20rem;
     }
     .nav-item button{
         padding: 1px;
         font-size: 8px;
      }
+     #my-col2{
+        margin-left: -50px;
+    }
 }
 @media (min-width: 700px) and (max-width: 1023px){
     .mb{

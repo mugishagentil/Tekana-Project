@@ -41,10 +41,7 @@ function Property() {
             <span style={{ fontWeight: "700" }}> Property We Manage</span>
           </h1>
           <p>
-            "Discover a wide range of properties we manage with care and
-            expertise, ensuring comfort and convenience for both landlords and
-            tenants. From residential to commercial spaces, we provide seamless
-            management services tailored to your needs."
+          "Browse Our Managed Properties "Explore a diverse selection of properties we manage with dedication and professionalism, ensuring a comfortable experience for landlords and tenants alike. Whether residential or commercial, our tailored management services guarantee a smooth experience."
           </p>
         </div>
         <div className="rightside-container">
@@ -70,7 +67,7 @@ function Property() {
               style={{ gap: "1px", marginTop: "80px" }}
             >
               <Row id="Row">
-                <Col id="my-col">
+                <Col id="my-col2">
                 <Link style={{textDecoration: 'none'}}>
                   <Card  className="Card-Col Apartment-Card">
                     <Card.Img variant="top" src={Apartment1} />
@@ -455,7 +452,7 @@ function Property() {
           {/* Parking Tab Ends Here */}
         </Tabs>
       </div>
-      <Popup/>
+      {/* <Popup/> */}
 
       {/* The Perfect Place to Manage Your Property-Part */}
       <div className="Perfect-Place">

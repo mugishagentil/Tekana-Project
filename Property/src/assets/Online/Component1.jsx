@@ -14,9 +14,9 @@ function Component1() {
    <div className="online-container">
     <div className="leftside-container">
       <h3 className='online-rental1'>ONLINE RENTAL PAYMENTS</h3>
-      <h1>Receive your <br /> 
-      <span style={{fontWeight: '700'}}>Money Faster</span></h1>
-      <p>No more knocking on doors, running to the bank, and waiting on your funds to arrive. Innago brings your rental collection into the 21st century.</p>
+      <h1>Get Your <br /> 
+      <span style={{fontWeight: '700'}}>Payments Sooner</span></h1>
+      <p>Say goodbye to door-to-door collections, bank trips, and delays. Tekana modernizes your rental payments, making collection quick and hassle-free in the digital age."</p>
       <h4><MdVerified /> <span>On-time collection</span></h4>
       <h4><MdVerified /> <span>On-time collection</span></h4>
       <h4><MdVerified /> <span>On-time collection</span></h4>

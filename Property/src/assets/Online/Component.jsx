@@ -15,7 +15,7 @@ function Component(){
         <Component1/>
         <Component2/>
         {/* <Component3/> */}
-        <Popup/>
+        {/* <Popup/> */}
         <Component4/>
         <Reviews/>
         <Footer/>

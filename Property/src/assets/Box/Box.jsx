@@ -95,7 +95,7 @@ function Box(){
 
   {/* Pop Login Form */}
   {/* Pop Login Form */}
-<Popup/>
+{/* <Popup/> */}
     </>
     )
 }

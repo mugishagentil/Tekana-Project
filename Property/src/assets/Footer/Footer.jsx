@@ -23,8 +23,8 @@ function Footer() {
     <> {/* Request Access Part Start Here */}
     <div className='Request-Access'>
     <div className='Left-Request'>
-     <h2 className='Request-Header'><span>Request Access</span></h2>
-     <p className='Request-Paragraph'>No monthly fee. No setup fee. No contract. Start streamlining your rental management process today.</p>
+     <h2 className='Request-Header'><span>Stay Connected with Tekana!</span></h2>
+     <p className='Request-Paragraph'>Be the first to know about our latest features, updates, and exclusive offers that make property management a breeze.</p>
     </div>
     <div className='Right-Request'>
     <form onSubmit={(e) =>handlersubscribeChange(e)}>

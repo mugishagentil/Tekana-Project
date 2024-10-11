@@ -19,9 +19,9 @@ function Background() {
             <div className="container-div">
                 {/* <div className='overlay'></div> */}
                 <video src={video} autoPlay loop muted />
-                <div className="content slideUpText">
-                    <h3 className='Property-Management'>Property Management <br></br>
-                        Software Built for You</h3>
+                <div className="content slideUpText" id='myContent'>
+                    <h3 className='Property-Management'>Your All-in-One Property  <br></br>
+                    Management Solution!</h3>
                     <p className='' style={{fontSize: '18px'}}>Whether you have one unit or one thousand. <br></br>
                         Tekana makes life easier.</p>
                     <form onSubmit={(e) =>handlerInputChange(e)}>  

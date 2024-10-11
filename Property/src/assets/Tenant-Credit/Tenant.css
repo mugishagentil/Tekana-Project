@@ -49,6 +49,11 @@
     margin-left: 400px;
     margin-bottom: 50px;
 }
+.OnlineHomeImg-Two{
+    width: 400px;
+    height: 500px;
+    margin: -100px 0 0 100px;
+}
 
 /* Animation */
 .slide-right {
@@ -120,6 +125,11 @@
     .long-term{
         width: 60%;
         margin-left: 75px;
+    }
+    .OnlineHomeImg-Two{
+        width: 300px;
+        height: 400px;
+        margin: -10px 0 0 10px;
     }
 }
 @media (min-width: 700px) and (max-width: 1023px){

@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+.mb-3{
+    width: 60%;
+}
 /* Megamenu Featured Style Start Here */
 #Megamenu-container1{
     width: 1000px;
@@ -287,8 +289,8 @@
         color: #494949;
     }
     li.nav-item button{
-        padding: 5px;
-        font-size: 10px;
+        padding: 6px;
+        font-size: 13px;
     }
    /* ul.nav-tabs{
     background-color: green;
@@ -348,7 +350,6 @@
 
     
 }
-
 @media (min-width: 1024px) and (max-width: 1370px){
     #Megamenu-container1{
         width: 700px;

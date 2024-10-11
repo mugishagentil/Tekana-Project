@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
-import './Popup.css'
+import './Popup.css';
 
 function Popup() {
   const [scrollCount, setScrollCount] = useState(0);
@@ -14,50 +14,77 @@ function Popup() {
   const [number, setNumber] = useState('');
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');
+  const [error, setError] = useState(null);
 
   const handleScroll = () => {
-    setScrollCount(prev => prev + 1);
+    try {
+      setScrollCount((prev) => prev + 1);
+    } catch (err) {
+      setError('An error occurred while scrolling.');
+      console.error(err);
+    }
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    try {
+      window.addEventListener('scroll', handleScroll);
 
-    if (scrollCount >= 100) {
-      setShowPopup(true);
-      window.removeEventListener('scroll', handleScroll);
+      if (scrollCount >= 100) {
+        setShowPopup(true);
+        window.removeEventListener('scroll', handleScroll);
+      }
+
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    } catch (err) {
+      setError('An error occurred while setting up the scroll listener.');
+      console.error(err);
     }
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
   }, [scrollCount]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Login:', email, password, number, name, location);
-    setShowPopup(false); 
+    try {
+      console.log('Login:', email, password, number, name, location);
+      setShowPopup(false); 
+    } catch (err) {
+      setError('An error occurred during form submission.');
+      console.error(err);
+    }
   };
 
   const handleOutsideClick = (e) => {
-    if (e.target.className === 'popup-container') {
-      setShowPopup(false);
+    try {
+      if (e.target.className === 'popup-container') {
+        setShowPopup(false);
+      }
+    } catch (err) {
+      setError('An error occurred while handling outside click.');
+      console.error(err);
     }
   };
 
   const handleCloseClick = () => {
-    setShowPopup(false);
+    try {
+      setShowPopup(false);
+    } catch (err) {
+      setError('An error occurred while closing the popup.');
+      console.error(err);
+    }
   };
 
   return (
     <>
-      {showPopup && (
-        <div className="popup-container"  onClick={handleOutsideClick}>
+      {error && <div className="error-message">{error}</div>}
+      {showPopup && !error && (
+        <div className="popup-container" onClick={handleOutsideClick}>
           <div className="popup-box" id='pop-div'>
             <div className="my-PopupContent">
-              <h4 style={{ color: '#4b48ac' }} id='why-property'>Hi!. I'm Tekana Property Management!😎</h4>
-              <p id='property-managers'>See why property managers and Tenants love Tekana.</p>
+              <h4 style={{ color: '#4b48ac' }} id='why-property'>Hi! I'm Tekana Property Management!😎</h4>
+              <p id='property-managers'>See why property managers and tenants love Tekana.</p>
               {/* Close button for mobile */}
-              <button className="mobile-close-btn" onClick={handleCloseClick}>X</button>
+              <button className="mobile-close-btn" id='close-btn' onClick={handleCloseClick}>X</button>
             </div>
             <form onSubmit={handleSubmit}>
               {/* Full Name */}

@@ -24,9 +24,7 @@ function Component1() {
     <div className="leftside-container">
       <h3 className='online-rental1'>TENANT CREDIT PEPORTING</h3>
       <h1>Pay <span style={{fontWeight: '700', color: '#4B48AC'}}>Rent.</span> Build <span style={{fontWeight: '700', color: '#4B48AC'}}>Credit.</span></h1>
-      <p>When you pay rent through Innago, you can report
-      your payment to all 3 major credit bureaus, helping
-      you build history and improve your credit score.</p>
+      <p>Paying rent through Tekana lets you report your payments to all three major credit bureaus, giving you the opportunity to build a solid history and boost your credit score.</p>
       <h4><MdVerified /> <span>Saves You Money Later Onn</span></h4>
       <h4><MdVerified /> <span>Immediate Results</span></h4>
       <h4><MdVerified /> <span>OTenant History Reporting</span></h4>
@@ -49,22 +47,22 @@ function Component1() {
        <div className="online-container">
     <div className="leftside-container">
       <h1>Start Reporting  <br />  Within<span style={{fontWeight: '700', color: '#4B48AC'}}>One Month</span> </h1>
-      <p>When you pay rent through Innago, you can reportImmediate ResultsAs an approved data furnisher with all three major credit bureaus (Experian, Equifax, and TransUnion), we're able to start sending your data and improve your score as soon as you sign up.</p>
+      <p>When you pay rent through Tekana, you can see immediate results. As an approved data furnisher with Experian, Equifax, and TransUnion, we begin reporting your payments right away to help improve your credit score.</p>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>
     </div>
    </div>
-   <Popup/>
+   {/* <Popup/> */}
 
    <div className="online-container">
    <div className="rightside-container">
-      <img src={HomeImg} alt="" className='OnlineHomeImg'/>
+      <img src={HomeImg} alt="" className='OnlineHomeImg-Two'/>
     </div>
     <div className="leftside-container">
       <h1>
       Track Progress </h1>
-      <p>Set goals and feel good as you move towards a better financial future. We'll let you know where you started and where you've gone, so you never forget where you want to be. And when you get there, don't be afraid to celebrate it.</p>
+      <p>Set your sights on a brighter financial future with Tekana. Track your progress, from where you started to where you’re headed, keeping your goals in focus. And when you reach them, don’t forget to celebrate your success!</p>
     </div>
    </div>
     <Reviews/>

@@ -91,7 +91,7 @@ function Pricing(){
         ))}
       </div>
     </div>
-    <Popup/>    
+    {/* <Popup/>     */}
     <Reviews/>
     <Footer/>
         </>
