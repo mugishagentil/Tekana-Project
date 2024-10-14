@@ -298,7 +298,7 @@ function Property() {
           <Tab eventKey="Student" title="Student">
             {/* Card */}
             <div className="div-paragraph">
-            <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Residential:</span> Tekana makes it easy to find and manage your ideal residential property, whether it's a family home or a cozy rental. Our platform simplifies every aspect of your tenancy.</p></div>
+            <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Schools:</span> Our Academic Stay Properties housing options are designed with convenience in mind, offering affordable and accessible accommodations close to academic institutions.</p></div>
             <Container
               className="Card-Conatiner"
               style={{ gap: "5px", marginTop: "80px" }}
@@ -376,7 +376,7 @@ function Property() {
           <Tab eventKey="Parking" title="Parking ">
             {/* Card */}
             <div className="div-paragraph">
-            <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Residential:</span> Tekana makes it easy to find and manage your ideal residential property, whether it's a family home or a cozy rental. Our platform simplifies every aspect of your tenancy.</p></div>
+            <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Parking:</span> We provide secure, well-located parking spaces, making vehicle management convenient and accessible for tenants and property owners alike.</p></div>
             <Container
               className="Card-Conatiner"
               style={{ gap: "5px", marginTop: "80px" }}

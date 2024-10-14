@@ -17,12 +17,14 @@ function Expenses() {
      <div className="online-container">
     <div className="leftside-container">
       <h3 className='online-rental1'>EXPENSES & REPORTING</h3>
-      <h1>Effortlessly Access and<br /> 
-      <span style={{fontWeight: '700'}}>Organize Your Financial Information</span></h1>
-      <p>Monitoring your business's financial health has never been simpler. Tekana automates the tracking of expenses and income, making it easy to generate detailed reports whenever you need them.</p>
-      <h4><MdVerified /> <span>Record payments and manage invoices</span></h4>
+      <h1>Gain Financial Clarity and<br /> 
+      <span style={{fontWeight: '700'}}>Control with Tekana </span></h1>
+      <p>Managing properties involves numerous financial transactions, and keeping track of these expenses is crucial for your business's health. At Tekana, our Expenses & Reporting feature is designed to simplify financial management, giving you the insights you need to make informed decisions.</p>
+      
+      <p>Managing expenses should be a breeze, not a burden. Tekana allows you to easily record and categorize your expenses in real time, ensuring that you never lose sight of your financial commitments.</p>
+      {/* <h4><MdVerified /> <span>Record payments and manage invoices</span></h4>
       <h4><MdVerified /> <span>Automate bookkeeping</span></h4>
-      <h4><MdVerified /> <span>Generate insightful reports</span></h4>
+      <h4><MdVerified /> <span>Generate insightful reports</span></h4> */}
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>
@@ -34,12 +36,12 @@ function Expenses() {
       <Row>
       <Col><img src={Img} alt="" className='HomeImg Block'/></Col>
         <Col className='Left-Row'>
-        <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'><span style={{fontSize: '40px', color: 'black', paddingTop: '5px', fontWeight: '800'}}>
+        <h2 className='Block'><span style={{fontSize: '40px', color: 'black', paddingTop: '5px', fontWeight: '800'}}>
         Expense Recording</span> <br /> and Tracking</h2>
-        <p style={{fontSize: '16px', color: '#4f4f4f',}} className='Block'>Input expense details swiftly with Tekana—add payee information, categorize expenses, and link them to the appropriate accounts for a seamless and organized financial record.</p>
+        <p className='Block'>Input expense details swiftly with Tekana—add payee information, categorize expenses, and link them to the appropriate accounts for a seamless and organized financial record.</p>
 
         <h3>Sometimes It Takes a Village</h3>
-        <p style={{fontSize: '16px', color: '#4f4f4f',}} className='Block'>Tekana is designed to accommodate multiple business entities, individuals, and bank accounts, ensuring that you can manage everything seamlessly and keep your finances well-organized..</p>
+        <p className='Block'>Tekana is designed to accommodate multiple business entities, individuals, and bank accounts, ensuring that you can manage everything seamlessly and keep your finances well-organized..</p>
         </Col>
       </Row>
       {/* Component-Two */}

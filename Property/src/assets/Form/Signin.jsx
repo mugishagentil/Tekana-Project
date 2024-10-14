@@ -33,9 +33,9 @@ function Signin(){
            <Link to='/' > <img src={Logo} alt="" className='Logo'/></Link>
             <p className='Please-sign' id='Please-sign'>Please sign in to your account</p>
             <div className="Sign-Icon" style={{width: '40%', display: 'flex', gap: '20px', marginTop: '20px'}}>
-              <div className="MyIcon"><a href="#"><FcGoogle style={{fontSize: '20px', marginTop: '5px'}}/></a></div>
-              <div className="MyIcon"><a href="#"><FaFacebook style={{fontSize: '20px', marginTop: '5px'}}/></a></div>
-              <div className="MyIcon"><a href="#"><FaApple style={{fontSize: '20px', marginTop: '5px'}}/></a></div>
+              <div className="MyIcon"><a href="#"><FcGoogle style={{fontSize: '25px', marginTop: '5px'}}/></a></div>
+              <div className="MyIcon"><a href="#"><FaFacebook style={{fontSize: '25px', marginTop: '5px'}}/></a></div>
+              <div className="MyIcon"><a href="#"><FaApple style={{fontSize: '25px', marginTop: '5px'}}/></a></div>
             </div>
             <hr className='Icons-Div'/>
             {/* Form control */}

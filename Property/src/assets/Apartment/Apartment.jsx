@@ -18,8 +18,8 @@ function Apartment() {
     <div className="online-container">
     <div className="leftside-container">
       <h3 className='online-rental1'>APARTMENT PROPERTIES</h3>
-      <h1> Tekana easy to use <br />platform helps you <br /> conquer <span style={{fontWeight: '700'}}> Apartment <br /> Renting</span> </h1>
-      <p> No unnecessary features or fillers to slow you down, just a sleek and effective way to enhance your Apartment portfolio. Check out how Tekana can boost your efficiency and professionalism.</p>
+      <h1> Your Trusted Solution for Apartment <span style={{fontWeight: '700'}}> Complex Management <br /> Renting</span> </h1>
+      <p>Managing apartment complexes can be demanding, whether you oversee a small number of units or an entire high-rise building. Tekana is here to simplify your operations, offering a user-friendly platform that keeps everything you need in one place.</p>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>
@@ -31,8 +31,8 @@ function Apartment() {
       <Row>
       <Col><img src={Img} alt="" className='HomeImg Block'/></Col>
         <Col className='Left-Row'>
-        <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>A Professional <br /> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px', fontWeight: '800'}}>Experience</span></h2>
-        <p style={{fontSize: '16px', color: '#4f4f4f',}} className='Block'>Your renters are running a business and they expect a professional experience for their rental. With Tekana clean and modern look and feel, your renters will be impressed with the level of polish you bring to your business.</p>
+        <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>Automated Reminders <br /> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px', fontWeight: '800'}}>& Notifications:</span></h2>
+        <p style={{fontSize: '16px', color: '#4f4f4f',}} className='Block'>Keep your tenants informed with automated reminders for rent due dates, lease renewals, and community updates. This helps you maintain a positive relationship with your tenants by ensuring they always know what’s going on.</p>
         </Col>
       </Row>
       {/* Component-Two */}
@@ -41,10 +41,10 @@ function Apartment() {
 
    <div className='Custom-Leases'>
     <div className="left-Customer">
-        <h2>Custom <span style={{fontWeight: '800'}} className='Block'>  Leases </span></h2>
-        <p style={{fontSize: '18px'}} className='Block'>Commerical leases are often significantly more complex than their residential counterparts, and for good reason. There is simply a lot more to negotiate.</p>
+        <h2>Streamlined Lease<span style={{fontWeight: '800'}} className='Block'>  Management:</span></h2>
+        <p style={{fontSize: '18px'}} className='Block'>Manage lease agreements and track renewals without the hassle of paperwork. Tekana’s digital lease management tools make it easy to keep track of important dates, terms, and tenant responsibilities, ensuring that everything is in order.</p>
 
-        <p style={{fontSize: '18px'}} className='Block'>Fortunately, Tekana allows you to add any number of custom lease agreements to be signed in digitally. And any leases signed offline can be uploaded into the system so your contract is never far from reach.</p>
+        {/* <p style={{fontSize: '18px'}} className='Block'>Fortunately, Tekana allows you to add any number of custom lease agreements to be signed in digitally. And any leases signed offline can be uploaded into the system so your contract is never far from reach.</p> */}
     </div>
     <div className="right-Customer">
     <Col><img src={HomeImg} alt="" className='HomeImg Block' id='myImage'/></Col>
@@ -56,8 +56,8 @@ function Apartment() {
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>
     </div>
     <div className="leftside-container">
-      <h1> Variable <span style={{fontWeight: '700'}}>Rent</span> </h1>
-      <p>The entire rental process is in one simple to use and easily accessible place. Create your custom application and screen tenants. Upload your lease and sign it digitally. Generate invoices and collect rent. Managing your residential properties has never been easier, from start to finish.</p>
+      <h1> Ready to Enhance Your <span style={{fontWeight: '700'}}> Apartment Management?</span> </h1>
+      <p>Start your journey with Tekana today and discover how our platform can transform your management experience. Our dedicated team is here to support you every step of the way, ensuring that you and your tenants enjoy a stress-free, connected living environment.</p>
     </div>
    </div>
     <Footer/>

@@ -100,7 +100,7 @@ function Aboutus() {
       {/* Our Team */}
       <div className="About About2">
         <h1 className="myTitle Title">Our Team</h1>
-        <p style={{ fontSize: "18px" }} className="myParagraph Paragraph">
+        <p style={{ fontSize: "18px" }} id="About-Paragraph">
           Tekana, your trusted solution for seamless property management. We
           understand the challenges that come with managing properties, whether
         </p>

@@ -2,6 +2,15 @@
     padding: 0;
     margin: 0;
 }
+#navBar{
+    height: 100px;
+    background-color: #FFF6EA;
+    border-bottom: 2px solid rgb(94, 105, 226);
+}
+
+#Header{
+    border-bottom: 2px solid black;
+}
 .mb-3{
     width: 60%;
 }
@@ -52,6 +61,12 @@
     opacity: 1;
     transform: translateY(0);
 }
+/* logo */
+.Logo1{
+    width: 100px;
+    height: 80px;
+    transition: transform 0.3s ease;
+}
 .div-link {
     text-decoration: none;
     color: black;
@@ -96,10 +111,7 @@
     background-color: rgba(229, 229, 229, 0.092);
     border-radius: 5px;
 }
-#navBar{
-    height: 100px;
-    background-color: #FFF6EA;
-}
+
 .col-md-4{
     width: 320px;
     position: relative;
@@ -114,6 +126,7 @@
 .me-auto{
     margin-left: 150px;
 }
+/* Logging and Signup place for Header Start-Here */
 .signIn-Button{
     font-size: 800;
     color: black;
@@ -135,6 +148,9 @@
     background-color: #3a3b7e;
     transform: scale(1.1);
 }
+/* Logging and Signup place for Header Start-Here */
+
+/* Icons For Dropdown in Header start here */
 #Icon{
     color: #4b48ac;
     font-size: 40px;
@@ -144,6 +160,7 @@
 .Icon:hover {
     transform: rotate(360deg);
 }  
+/* Icons For Dropdown in Header start here */
 #mega-menu-header{
     font-size: 13px;
     color: black;
@@ -182,12 +199,7 @@
 }
 /* MegamenuTwo Property Type Style Ends Here */
 
-/* logo */
-.Logo1{
-    width: 100px;
-    height: 80px;
-    transition: transform 0.3s ease;
-}
+
 
 .row button{
     color: #000000;
@@ -288,9 +300,13 @@
     .mega-manu-paragraph{
         color: #494949;
     }
+    .mb-3 {
+        flex-direction: row;
+        text-align: center;
+    }
     li.nav-item button{
-        padding: 6px;
-        font-size: 13px;
+        padding: 10px;
+        font-size: 15px;
     }
    /* ul.nav-tabs{
     background-color: green;

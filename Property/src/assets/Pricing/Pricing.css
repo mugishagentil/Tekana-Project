@@ -39,10 +39,94 @@
     font-size: 50px;
     font-weight: 900;
 }
-.Dropdown-section{
-    width: 90%;
-    margin: 50px 0 0 78px;
-}
+/* Dropp-Down */
+.support-container {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #support-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+  }
+
+  
+  .support-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .support-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .support-costs {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  #support-costs {
+    display: flex;
+    gap: 60px;
+    padding-left: 580px;
+  }
+  
+  .support-costs p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 80px;
+    color: #4b48ac;
+  }
+  
+  .support-header span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  
+  .support-details {
+    padding: 0 20px;
+  }
+  
+  .support-item {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 20px;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .support-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .support-item span {
+    font-size: 16px;
+    color: #4b48ac;
+    margin-right: 120px;
+  }
+  
+  .support-item:last-child {
+    border-bottom: none;
+  }
+  
+  
 
 /* Animation */
 .slide-right {
@@ -71,49 +155,6 @@
      animation-timeline: view();
      animation-range: entry 0% cover 40%;
  }
-/* FAQ */
-/* Dropdownl */
-
-.faq-container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .faq-list {
-    margin-top: 20px;
-  }
-  
-  .faq-item {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #bababa;
-    padding: 5px;
-  }
-  
-  .faq-question {
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-    padding: 10px 0;
-  }
-  
-  .faq-answer {
-    padding: 10px 0;
-    font-size: 19px;
-    color: #4b48ac;
-    background-color: #dfdfdf;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .faq-question h3 {
-    margin: 0;
-    font-size: 20px;
-  }
-  
-  .faq-question span {
-    font-size: 20px;
-  }
   
 @media (min-width: 300px) and (max-width: 900px){
     *{
@@ -146,24 +187,29 @@
         font-size: 30px;
         font-weight: 500;
     }
-    /* dropdown */
-    .Dropdown{
-        width: 100%;
-        margin-left: 0;
-    }
-    .Description{
-        width: 50%;
-    }
-    .Free-One{
-        width: 25%;
-    }
-    .Free-Two{
-        width: 25%;
-    }
-    .Dropdown-Pricing{
-        width: 95%;
-        margin-left: 10PX;
-    }
+    .support-container {
+        width: 90%;
+      }
+      .support-header h2 {
+        font-size: 14px;
+      }
+    
+      .support-costs p {
+        font-size: 12px;
+        margin-right: 10px;
+      }
+    
+      .support-item p {
+        font-size: 12px;
+      }
+      .support-item span{
+        margin-right: 50px;
+      }
+      #support-costs {
+        display: flex;
+        gap: 10px;
+        padding-left: 170px;
+      }
 }
 @media (min-width: 700px) and (max-width: 1023px){
     .Price-Content{
@@ -183,5 +229,10 @@
     .Setup{
         font-size: 25px;
         padding-top: 10px;
+    }
+    #support-costs {
+      display: flex;
+      gap: 10px;
+      padding-left: 530px;
     }
 }

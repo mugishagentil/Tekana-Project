@@ -33,7 +33,7 @@ function About() {
       <Tabs
       defaultActiveKey="apartment"
       id="uncontrolled-tab-example"
-      className="mb-4"
+      className="mb-4 mb3"
     >
         
         {/* Apartment-Part */}
@@ -149,8 +149,8 @@ function About() {
         </div>
       </Tab>
       {/*   Student-Part */}
-      <Tab eventKey="student" title="Student">
-        <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Student: </span> Our student housing options are designed with convenience in mind, offering affordable and accessible accommodations close to academic institutions.</p>
+      <Tab eventKey="schools" title="Schools">
+        <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Schools: </span> Our Academic Stay Properties housing options are designed with convenience in mind, offering affordable and accessible accommodations close to academic institutions.</p>
 
         <div class="text-center">
         <div class="row">

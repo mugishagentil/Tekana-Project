@@ -17,9 +17,9 @@ function Component1() {
       <h1>Get Your <br /> 
       <span style={{fontWeight: '700'}}>Payments Sooner</span></h1>
       <p>Say goodbye to door-to-door collections, bank trips, and delays. Tekana modernizes your rental payments, making collection quick and hassle-free in the digital age."</p>
-      <h4><MdVerified /> <span>On-time collection</span></h4>
-      <h4><MdVerified /> <span>On-time collection</span></h4>
-      <h4><MdVerified /> <span>On-time collection</span></h4>
+      <h4><MdVerified /> <span>Instant Transactions</span></h4>
+      <h4><MdVerified /> <span>Secure Payments</span></h4>
+      <h4><MdVerified /> <span>Hassle-Free Billing</span></h4>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>

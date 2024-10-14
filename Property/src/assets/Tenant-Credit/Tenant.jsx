@@ -23,11 +23,11 @@ function Component1() {
     <div className="online-container">
     <div className="leftside-container">
       <h3 className='online-rental1'>TENANT CREDIT PEPORTING</h3>
-      <h1>Pay <span style={{fontWeight: '700', color: '#4B48AC'}}>Rent.</span> Build <span style={{fontWeight: '700', color: '#4B48AC'}}>Credit.</span></h1>
-      <p>Paying rent through Tekana lets you report your payments to all three major credit bureaus, giving you the opportunity to build a solid history and boost your credit score.</p>
-      <h4><MdVerified /> <span>Saves You Money Later Onn</span></h4>
+      <h1>Empowering <span style={{fontWeight: '700', color: '#4B48AC'}}>Tenants</span> Enhancing <span style={{fontWeight: '700', color: '#4B48AC'}}>Landlords' Confidence</span></h1>
+      <p>Tenant credit reporting involves sharing rental payment histories with major credit bureaus, enabling tenants to build their credit scores through timely rent payments. This feature fosters a responsible rental culture, encouraging tenants to pay on time and landlords to ensure a reliable tenant selection process.</p>
+      {/* <h4><MdVerified /> <span>Saves You Money Later Onn</span></h4>
       <h4><MdVerified /> <span>Immediate Results</span></h4>
-      <h4><MdVerified /> <span>OTenant History Reporting</span></h4>
+      <h4><MdVerified /> <span>OTenant History Reporting</span></h4> */}
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>

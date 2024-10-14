@@ -41,10 +41,10 @@ function Commercial2() {
         <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>
         Generating <br /> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px', fontWeight: '800'}}>Work Orders</span></h2>
         <h3>Upload Images and Video</h3>
-        <p style={{fontSize: '16px', color: '#4f4f4f',}} className='Block'>When addressing maintenance concerns, a picture can convey a lot, but a video can eliminate unnecessary trips to the workshop. Tenants can submit their maintenance requests, including a category, detailed description, images, and videos.</p>
+        <p className='Block'>When addressing maintenance concerns, a picture can convey a lot, but a video can eliminate unnecessary trips to the workshop. Tenants can submit their maintenance requests, including a category, detailed description, images, and videos.</p>
 
         <h3>Sometimes, Community Support Makes All the Difference.</h3>
-        <p style={{fontSize: '16px', color: '#4f4f4f',}} className='Block'>Information is readily shared with you and any necessary maintenance staff. It’s organized for easy access and future reference, allowing your entire team to collaborate and resolve tickets efficiently.</p>
+        <p className='Block'>Information is readily shared with you and any necessary maintenance staff. It’s organized for easy access and future reference, allowing your entire team to collaborate and resolve tickets efficiently.</p>
         </Col>
       </Row>
       {/* Component-Two */}
@@ -56,7 +56,7 @@ function Commercial2() {
     <div className="left-Customer">
         <h2>Provide Your Renters <br /> <span style={{fontWeight: '800'}} className='Block'>  Peace of Mind </span></h2>
         <h2>Status Updates</h2>
-        <p style={{fontSize: '18px'}} className='Block'>For tenants, the distinction between a great landlord and a poor one often boils down to response times. Even if issues are resolved swiftly, lack of communication can leave renters feeling neglected, negatively impacting their overall experience.</p>
+        <p className='Block'>For tenants, the distinction between a great landlord and a poor one often boils down to response times. Even if issues are resolved swiftly, lack of communication can leave renters feeling neglected, negatively impacting their overall experience.</p>
          
     </div>
     <div className="right-Customer">

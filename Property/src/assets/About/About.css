@@ -22,6 +22,11 @@ width: 50%;
 .col-2{
     width: 50%;
 }
+.mb3{
+    width: 100%;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+}
 .mb2{
     border: 1px solid rgb(197, 197, 197);
     border-radius: 5px;
@@ -42,7 +47,7 @@ width: 50%;
  /* Mobile devices (landscape), small tablets */
  @media (max-width: 768px) {
     .About-Container{
-        margin-top: -180px;
+        margin-top: -100px;
     }
     .Left-About{
         padding: 10px;
@@ -60,10 +65,11 @@ width: 50%;
     .row-1{
         display: block;
     }
+    
  }
  @media (min-width: 768px) and (max-width: 818px){
     .About-Container{
-        margin-top: -400px;
+        margin-top: -300px;
         padding-left: 20px;
     }
     .Left-About{
@@ -112,7 +118,7 @@ width: 50%;
 /* @media (min-width: 1280px) and (max-width: 1440px) */
 @media (min-width: 1281px) and (max-width: 1440px) {
     .About-Container{
-        margin-top: -150px;
+        margin-top: -30px;
     }
     .Left-About{
         padding: 10px 0 0 40px;

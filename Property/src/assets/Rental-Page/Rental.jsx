@@ -39,7 +39,7 @@ function Component1() {
         <h2 className='Block'>Why Does Renter’s  <br></br>
         <span>Insurance Matter?</span>
         </h2>
-        <p style={{fontSize: '20px', color: '#616161'}} className='Block'>For a surprisingly low cost, renter’s insurance protects your valuable belongings, including electronics, furniture, and personal items. Plus, it provides coverage if your possessions accidentally cause damage to others.</p>
+        <p className='Block'>For a surprisingly low cost, renter’s insurance protects your valuable belongings, including electronics, furniture, and personal items. Plus, it provides coverage if your possessions accidentally cause damage to others.</p>
         <img src={Img} alt="" className='HomeImgTwo Block'/>
        </div>
        {/* <Popup/> */}

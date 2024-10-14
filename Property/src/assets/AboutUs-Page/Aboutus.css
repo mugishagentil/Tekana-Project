@@ -11,8 +11,8 @@
 .myTitle{
     color: white;
 }
-#myParagraph{
-    color: rgb(219, 219, 219);
+#About-Paragraph{
+    color: rgb(255, 255, 255);
 }
 .link{
     width: 100%;
@@ -126,11 +126,14 @@
         gap: 10px;
         margin-top: -170px;
     }
-    .Card{
+    #Card{
         width: 80%;
         height: 45vh;
         margin: 0 0 15px 30px;
      }
+     #About-Paragraph{
+        color: rgb(0, 0, 0);
+    }
 }
 @media (min-width: 700px) and (max-width: 1023px){
     .About{
@@ -145,7 +148,7 @@
         gap: 10px;
         margin-top: -170px;
     }
-    .Card{
+    #Card{
         width: 80%;
         height: 40vh;
         margin: 0 0 15px 80px;
@@ -181,11 +184,7 @@
         gap: 10px;
         margin-top: -120px;
     }
-    .Card{
-        width: 60%;
-        height: 40vh;
-        margin: 0 0 15px 200px;
-     }
+
 }
 /* @media (min-width: 1280px) and (max-width: 1440px) */
 @media (min-width: 1300px) and (max-width: 1440px){
@@ -220,7 +219,7 @@
         background-color: white;
         margin-bottom: 30px;
     }
-    .myParagraph{
-        color: rgb(0, 0, 0);
+    #About-Paragraph{
+        color: rgb(215, 215, 215);
     }
   }

@@ -158,7 +158,7 @@ function CollapsibleExample() {
             <div className="col-md-4">
             <Link to='/student' className='div-link'>
             <div className="container-fluid1" id='container-fluid1'>
-              <h5 id='IconHeader'><BiBuildingHouse id='Icon'/> <span id='mega-menu-header' >Student Properties</span></h5>
+              <h5 id='IconHeader'><BiBuildingHouse id='Icon'/> <span id='mega-menu-header' >Schools Properties</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Better operate everything from multi-family to single-family renters as you grow your business in the bedrock of the US real estate market.</p>
             </div>
             </Link>
