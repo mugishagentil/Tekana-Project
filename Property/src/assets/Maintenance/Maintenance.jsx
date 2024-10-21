@@ -8,6 +8,9 @@ import Col from 'react-bootstrap/Col';
 import HomeImg from '../imagess/Commercial.png';
 import Img from '../imagess/Hotel2.png';
 import { MdVerified } from "react-icons/md";
+import { MdOutlineWorkHistory } from "react-icons/md";
+import { IoGitPullRequestSharp } from "react-icons/io5";
+import { SiLinuxprofessionalinstitute } from "react-icons/si";
 import '../Commercial/Commercial.css'
 import Popup from "../Popup/Popup.jsx";
 import Form from 'react-bootstrap/Form';
@@ -24,9 +27,9 @@ function Commercial2() {
       <h1><span style={{fontWeight: '700'}}>
       Stay Organized, </span> <br /> Achieve More</h1>
       <p>Promptly receive and address maintenance requests to ensure peace of mind for both you and your tenants.</p>
-      <h4><MdVerified /> <span>Say goodbye to printed work orders</span></h4>
-      <h4><MdVerified /> <span>Complete more requests, more quickly</span></h4>
-      <h4><MdVerified /> <span>Give tenants professional, fast response times</span></h4>
+      <h4>< MdOutlineWorkHistory  /> <span>Say goodbye to printed work orders</span></h4>
+      <h4><IoGitPullRequestSharp /> <span>Complete more requests, more quickly</span></h4>
+      <h4><SiLinuxprofessionalinstitute /> <span>Give tenants professional, fast response times</span></h4>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>

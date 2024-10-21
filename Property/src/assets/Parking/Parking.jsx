@@ -1,7 +1,6 @@
 import React from 'react'
 import HomeImg from '../imagess/beautiful-home.png';
 import Img from '../imagess/Hotel2.png';
-import { MdVerified } from "react-icons/md";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -9,6 +8,9 @@ import Header from '../Header/Header.jsx';
 import Footer from '../Footer/Footer.jsx';
 import Popup from "../Popup/Popup.jsx";
 import Form from 'react-bootstrap/Form';
+import { LuAlignVerticalSpaceBetween } from "react-icons/lu";
+import { BsArrowBarRight } from "react-icons/bs";
+import { GiTimeBomb } from "react-icons/gi";
 
 function Parking() {
   return (
@@ -19,9 +21,9 @@ function Parking() {
       <h1>Simplifying Parking  <br /> 
       <span style={{fontWeight: '700'}}>Property Management</span></h1>
       <p>Managing parking properties can be a challenging task, especially when it comes to keeping track of space availability, managing reservations, and ensuring timely payment collection. Tekana is here to transform the way you handle parking spaces, making it easier and more efficient than ever.</p>
-      <h4><MdVerified /> <span>Space Optimization</span></h4>
-      <h4><MdVerified /> <span>Seamless Reservations</span></h4>
-      <h4><MdVerified /> <span>Timely Payments</span></h4>
+      <h4><LuAlignVerticalSpaceBetween /> <span>Space Optimization</span></h4>
+      <h4><BsArrowBarRight /> <span>Seamless Reservations</span></h4>
+      <h4><GiTimeBomb/> <span>Timely Payments</span></h4>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>

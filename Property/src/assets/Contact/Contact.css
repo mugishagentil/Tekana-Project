@@ -93,7 +93,9 @@
   .contact-form button:hover {
     background-color: #636fa6;
   }
-  
+  #myParagraph{
+    color: white;
+  }
   /* Animations */
   @keyframes fadeIn {
     from {

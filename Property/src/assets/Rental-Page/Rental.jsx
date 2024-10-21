@@ -10,6 +10,9 @@ import HomeImg from '../imagess/beautiful-home.png';
 import collection from '../imagess/collection.jpg';
 import Img from '../imagess/Hotel2.png';
 import { MdVerified } from "react-icons/md";
+import { TbDoorEnter } from "react-icons/tb";
+import { BiSolidPurchaseTag } from "react-icons/bi";
+import { IoDocumentsOutline } from "react-icons/io5";
 import './Rental.css'
 // Popup
 import Popup from "../Popup/Popup.jsx";
@@ -26,9 +29,9 @@ function Component1() {
       <h1>Safeguard Your Property, <br /> 
       <span style={{fontWeight: '700'}}>Secure Your Business</span></h1>
       <p>Renter’s insurance offers cost-effective coverage, providing protection for tenants and landlords against property damage and potential legal issues. It's a smart choice for everyone in the rental process.</p>
-      <h4><MdVerified /> <span>Set renter’s insurance requirements</span></h4>
-      <h4><MdVerified /> <span>Purchase or upload policies</span></h4>
-      <h4><MdVerified /> <span>Track documents and status</span></h4>
+      <h4><TbDoorEnter /> <span>Set renter’s insurance requirements</span></h4>
+      <h4>< BiSolidPurchaseTag /> <span>Purchase or upload policies</span></h4>
+      <h4><IoDocumentsOutline /> <span>Track documents and status</span></h4>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>

@@ -156,7 +156,7 @@ function CollapsibleExample() {
 
             {/* Mega Piece Four */}
             <div className="col-md-4">
-            <Link to='/student' className='div-link'>
+            <Link to='/Schools' className='div-link'>
             <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><BiBuildingHouse id='Icon'/> <span id='mega-menu-header' >Schools Properties</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Better operate everything from multi-family to single-family renters as you grow your business in the bedrock of the US real estate market.</p>
@@ -223,6 +223,16 @@ function CollapsibleExample() {
             <div className="container-fluid1" id='container-fluid1'>
               <h5 id='IconHeader'><GiExpense id='Icon'/> <span className='mega-menu-header' >Expense & Reporting</span></h5>
               <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Understand your business better than ever before with insightful reports.</p>
+            </div>
+            </Link>
+            </div>
+
+             {/* Mega Piece Three */}
+             <div className="col-md-4">
+            <Link to='/contact' className='div-link'>
+            <div className="container-fluid1" id='container-fluid1'>
+              <h5 id='IconHeader'><GiExpense id='Icon'/> <span className='mega-menu-header' >Contact Us</span></h5>
+              <p className='mega-manu-paragraph' style={{marginRight: '40px'}}>Need assistance? Reach out to our support team for any questions or issues you may have.</p>
             </div>
             </Link>
             </div>

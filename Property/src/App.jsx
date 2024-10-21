@@ -19,7 +19,7 @@ import Tenant from './assets/Tenant-Communication/Communication.jsx';
 import Credit from './assets/Tenant-Credit/Tenant.jsx';
 import Privecy from './assets/Privecy/Privecy.jsx';
 import Property from './assets/Properties/Property.jsx';
-import Student from './assets/Student/Student.jsx';
+import Schools from './assets/Schools/Schools.jsx';
 import Parking from './assets/Parking/Parking.jsx';
 import About from './assets/AboutUs-Page/Aboutus.jsx';
 import Contact from './assets/Contact/Contact.jsx';
@@ -44,7 +44,7 @@ function App() {
         <Route path="/credit" element={<Credit />} />
         <Route path="/privecy" element={<Privecy />} />
         <Route path="/property" element={<Property />} />
-        <Route path="/student" element={<Student />} />
+        <Route path="/schools" element={<Schools />} />
         <Route path="/Parking" element={<Parking />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

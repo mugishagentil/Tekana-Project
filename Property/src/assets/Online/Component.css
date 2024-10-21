@@ -89,11 +89,8 @@
     .OnlineHomeImg{
         width: 300px;
         height: 400px;
-        margin: -50px 0 0 20px;
-    }
-   
-    
-    
+        margin: 0px 0 0 20px;
+    } 
 }
 @media (min-width: 700px) and (max-width: 1023px){
     .online-container{

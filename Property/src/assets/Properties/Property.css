@@ -110,14 +110,18 @@
     .Apartment-Card{
         width: 20rem;
     }
-    .nav-item button{
-        padding: 1px;
-        font-size: 8px;
-     }
+    .mb-3 {
+        flex-direction: row;
+        text-align: center;
+    }
+    li.nav-item button{
+        padding: 10px;
+        font-size: 15px;
+    }
+}
      #my-col2{
         margin-left: -50px;
     }
-}
 @media (min-width: 700px) and (max-width: 1023px){
     .mb{
         margin: 20px 0 0 140px;

@@ -44,7 +44,7 @@ function About() {
             {/* Apartment-part */}
         <div class="col-1">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{ width: "16rem" }} className="Card-Col">
                     <Card.Img variant="top" src={Apartment1} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -58,7 +58,7 @@ function About() {
         </div>
         <div class="col-2">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Apartment2} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -78,10 +78,10 @@ function About() {
         <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Commercial:</span> We manage prime commercial spaces that cater to businesses of all sizes, providing a hassle-free leasing process and comprehensive property management services.</p>
 
         <div class="text-center">
-        <div class="row">
+        <div id="myrow">
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Commercial1} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -95,7 +95,7 @@ function About() {
         </div>
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Commercial2} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -115,11 +115,11 @@ function About() {
         <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Residential:</span> Tekana makes it easy to find and manage your ideal residential property, whether it's a family home or a cozy rental. Our platform simplifies every aspect of your tenancy.</p>
 
         <div class="text-center">
-        <div class="row">
+        <div id="myrow">
             {/* Apartment-part */}
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Residential} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -133,7 +133,7 @@ function About() {
         </div>
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Residential2} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -153,11 +153,11 @@ function About() {
         <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Schools: </span> Our Academic Stay Properties housing options are designed with convenience in mind, offering affordable and accessible accommodations close to academic institutions.</p>
 
         <div class="text-center">
-        <div class="row">
+        <div id="myrow">
             {/* Apartment-part */}
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Apartment1} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -171,7 +171,7 @@ function About() {
         </div>
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Apartment2} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -191,11 +191,11 @@ function About() {
         <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Parking:</span> We provide secure, well-located parking spaces, making vehicle management convenient and accessible for tenants and property owners alike.</p>
 
         <div class="text-center">
-        <div class="row">
+        <div id="myrow">
             {/* Apartment-part */}
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Apartment1} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
@@ -209,7 +209,7 @@ function About() {
         </div>
         <div class="col">
         <Link style={{textDecoration: 'none'}}>
-            <Card style={{ width: "14rem" }} className="Card-Col">
+            <Card style={{  width: "16rem"  }} className="Card-Col">
                     <Card.Img variant="top" src={Apartment2} style={{height: '20vh'}}/>
                     <Card.Body style={{ textAlign: "center" }}>
                       <Card.Title
