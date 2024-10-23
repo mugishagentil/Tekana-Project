@@ -26,7 +26,7 @@ function Commercial2() {
       <h3 className='online-rental1'>MAINTENANCE REQUESTS</h3>
       <h1><span style={{fontWeight: '700'}}>
       Stay Organized, </span> <br /> Achieve More</h1>
-      <p>Promptly receive and address maintenance requests to ensure peace of mind for both you and your tenants.</p>
+      <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Promptly receive and address maintenance requests to ensure peace of mind for both you and your tenants.</p>
       <h4>< MdOutlineWorkHistory  /> <span>Say goodbye to printed work orders</span></h4>
       <h4><IoGitPullRequestSharp /> <span>Complete more requests, more quickly</span></h4>
       <h4><SiLinuxprofessionalinstitute /> <span>Give tenants professional, fast response times</span></h4>
@@ -44,10 +44,10 @@ function Commercial2() {
         <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>
         Generating <br /> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px', fontWeight: '800'}}>Work Orders</span></h2>
         <h3>Upload Images and Video</h3>
-        <p className='Block'>When addressing maintenance concerns, a picture can convey a lot, but a video can eliminate unnecessary trips to the workshop. Tenants can submit their maintenance requests, including a category, detailed description, images, and videos.</p>
+        <p className='Block' style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>When addressing maintenance concerns, a picture can convey a lot, but a video can eliminate unnecessary trips to the workshop. Tenants can submit their maintenance requests, including a category, detailed description, images, and videos.</p>
 
         <h3>Sometimes, Community Support Makes All the Difference.</h3>
-        <p className='Block'>Information is readily shared with you and any necessary maintenance staff. It’s organized for easy access and future reference, allowing your entire team to collaborate and resolve tickets efficiently.</p>
+        <p className='Block' style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Information is readily shared with you and any necessary maintenance staff. It’s organized for easy access and future reference, allowing your entire team to collaborate and resolve tickets efficiently.</p>
         </Col>
       </Row>
       {/* Component-Two */}
@@ -59,7 +59,7 @@ function Commercial2() {
     <div className="left-Customer">
         <h2>Provide Your Renters <br /> <span style={{fontWeight: '800'}} className='Block'>  Peace of Mind </span></h2>
         <h2>Status Updates</h2>
-        <p className='Block'>For tenants, the distinction between a great landlord and a poor one often boils down to response times. Even if issues are resolved swiftly, lack of communication can leave renters feeling neglected, negatively impacting their overall experience.</p>
+        <p className='Block' style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>For tenants, the distinction between a great landlord and a poor one often boils down to response times. Even if issues are resolved swiftly, lack of communication can leave renters feeling neglected, negatively impacting their overall experience.</p>
          
     </div>
     <div className="right-Customer">
@@ -75,7 +75,7 @@ function Commercial2() {
       <h1> 
       Efficiently Handle Work <br /> Orders with Expertise </h1>
       <h2>Maintenance Assignment</h2>
-      <p>As a real estate investor, you understand that a property involves much more than just its surface. As you or your maintenance team investigate an issue, it can evolve in unexpected ways. Stay organized and monitor your work orders and tasks seamlessly within Innago.</p>
+      <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>As a real estate investor, you understand that a property involves much more than just its surface. As you or your maintenance team investigate an issue, it can evolve in unexpected ways. Stay organized and monitor your work orders and tasks seamlessly within Innago.</p>
     </div>
    </div>
     <Footer/>

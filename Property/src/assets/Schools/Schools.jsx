@@ -22,7 +22,7 @@ function Student() {
       <h3 className='online-rental1'>SCHOOLS PROPERTIES</h3>
       <h1>Simplify School <br /> 
       <span style={{fontWeight: '700'}}>Hostel Property Management</span></h1>
-      <p>Managing schools and hostel properties just got easier with Tekana. Our platform provides a streamlined solution for property owners and managers to oversee student accommodations efficiently, ensuring a seamless experience for students, parents, and administrators.</p>
+      <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Managing schools and hostel properties just got easier with Tekana. Our platform provides a streamlined solution for property owners and managers to oversee student accommodations efficiently, ensuring a seamless experience for students, parents, and administrators.</p>
       <h4><BsAward /> <span>Hassle-free Management</span></h4>
       <h4><FcAutomatic /> <span>Automated Payments</span></h4>
       <h4><GiTelepathy /> <span>Efficient Communication</span></h4>
@@ -39,9 +39,9 @@ function Student() {
         <Col className='Left-Row'>
         <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>Never Miss a <br></br> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px'}}>Payment Again</span></h2>
         <h2 className='Block'>Automated Payments</h2>
-        <p style={{fontSize: '18px', color: '#4f4f4f'}} className='Block'>Tenants love signing up for automated rent payment, and you’ll love it when they do too. Fewer tenants will forget to pay and more rental payments will come in on time.</p>
+        <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}} className='Block'>Tenants love signing up for automated rent payment, and you’ll love it when they do too. Fewer tenants will forget to pay and more rental payments will come in on time.</p>
         <h2 className='Block'>Payment Reminder Alerts</h2>
-        <p className='Block'>Tenants receive automatic reminders and notifications when rent is due. A convenient pay now button within the email makes submitting payments on time easy, all it takes is a simple click.</p>
+        <p className='Block' style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Tenants receive automatic reminders and notifications when rent is due. A convenient pay now button within the email makes submitting payments on time easy, all it takes is a simple click.</p>
         </Col>
       </Row>
       {/* Component-Two */}
@@ -53,7 +53,7 @@ function Student() {
         <h2 className='Block'>Simple, Automated Billing <br></br>
         <span>Recurring & Custom Invoices</span>
         </h2>
-        <p style={{fontSize: '20px', color: '#616161'}} className='Block'>Prorate, credit, and quickly charge extra if needed. Customize the frequency for automated <br></br> invoices. Charge your tenants monthly, weekly, or any other payment interval you can dream up.</p>
+        <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}} className='Block'>Prorate, credit, and quickly charge extra if needed. Customize the frequency for automated <br></br> invoices. Charge your tenants monthly, weekly, or any other payment interval you can dream up.</p>
         <img src={Img} alt="" className='HomeImgTwo Block'/>
        </div>
    <Footer />

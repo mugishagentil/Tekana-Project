@@ -38,9 +38,9 @@ const ContactUs = () => {
     <>
      <Header />
       <div className="About">
-        <h1 className="myTitle" style={{fontSize: '60px'}}>Contact Us</h1>
-        <p style={{ fontSize: "18px" }} id="myParagraph">
-        At Tekana, we are committed to providing a seamless and efficient property management experience. Whether you're a landlord managing several properties or a tenant dealing with rental agreements and maintenance, Tekana offers solutions tailored to your needs. Our goal is to streamline the management process, ensuring smooth communication and hassle-free operations for both property owners and tenants.
+        <h1 className="myTitle" style={{fontSize: '50px'}}>Contact Us</h1>
+        <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}} id="myParagraph">
+        We’re here to help you with any inquiries or support you may need regarding your property management experience. Whether you're a landlord, property manager, or tenant, Tekana is committed to providing timely assistance.
         </p>
       </div>
       <div className="link">
@@ -55,10 +55,10 @@ const ContactUs = () => {
       <div className="contact-details">
         <div className="contact-info">
           <h2>Get in Touch</h2>
-          <p>We're here to help! Reach out to us for any inquiries or support.</p>
-          <p><FaMapMarkerAlt /> Address: Kigali, Kacyiro</p>
-          <p><FaPhone /> Phone: +250 798 814 109</p>
-          <p><FaEnvelope /> Email: support@tekana.com</p>
+          <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>We're here to help! Reach out to us for any inquiries or support.</p>
+          <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}><FaMapMarkerAlt /> Address: Kigali, Kacyiro</p>
+          <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}><FaPhone /> Phone: +250 798 814 109</p>
+          <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}><FaEnvelope /> Email: support@tekana.com</p>
         </div>
 
         <div className="contact-form">

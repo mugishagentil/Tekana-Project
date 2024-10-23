@@ -3,47 +3,20 @@
 }
 .Price-Content{
     text-align: center;
-    margin-top: 100px;
+    margin: 100px 0 100px 0;
 }
-.Simple{
-    font-size: 40px;
-    font-weight: 700;
+.Price-Content-Par{
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 20px;
 }
-.Pricing{
-    width: 800px;
-    height: 700px;
-}
-.Accordion-item{
-    margin-bottom: 5px;
-}
-.Pricing-Icons{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 100px;
-    width: 100%;
-    margin: 50px 0 30px 0;
-}
-.myIcon{
-    font-size: 40px;
-    margin-right: 10px;
-}
-.Setup{
-    font-size: 25px;
-}
-/* Down side */
-.Every-Feature{
-    font-size: 40px;
-}
-.span-Feature{
-    font-size: 50px;
-    font-weight: 900;
-}
+
 /* Dropp-Down */
 .support-container {
     border: 1px solid #e5e5e5;
     border-radius: 6px;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     margin-top: 15px;
     background-color: #fff;
@@ -79,8 +52,11 @@
   }
   #support-costs {
     display: flex;
-    gap: 60px;
-    padding-left: 580px;
+    gap: 20px;
+    padding-left: 650px;
+  }
+  #Free-Two{
+    margin-left: 20px;
   }
   
   .support-costs p {
@@ -161,8 +137,8 @@
         padding: 5px;
     }
     .Price-Content{
-        margin-top: 20px;
-    }
+      margin: 50px 0 10px 0;
+  }
     .Pricing{
         width: 300px;
         height: 250px;
@@ -209,6 +185,11 @@
         display: flex;
         gap: 10px;
         padding-left: 170px;
+      }
+      .Price-Content-Par{
+        width: 100%;
+        margin-left: 1%;
+        margin-top: 20px;
       }
 }
 @media (min-width: 700px) and (max-width: 1023px){

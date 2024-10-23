@@ -8,6 +8,7 @@ import Component from '../undervideoCo/component.jsx';
 import Reviews from '../Reviewss/Review.jsx';
 import Footer from '../Footer/Footer.jsx';
 import About from '../About/About.jsx';
+import Tips from '../Tips/Tips.jsx';
 function HomePage() {
     return(
      <>
@@ -17,6 +18,7 @@ function HomePage() {
      <Box/>
      <Middle/>
      <Component/>
+     <Tips/>
      <Reviews/>
      <Footer/>
      </>

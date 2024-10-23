@@ -6,10 +6,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import ListGroup from 'react-bootstrap/ListGroup';
 import video from "../imagess/digital.mp4";
 import Reviews from '../Reviewss/Review.jsx';
 import Popup from "../Popup/Popup.jsx";
+import { HiOutlineCube } from "react-icons/hi";
+import { HiArrowLongRight } from "react-icons/hi2";
+import { HiArrowLongLeft } from "react-icons/hi2";
 
 // members-Images
 import Member1 from "../imagess/Thiery.jpg";
@@ -23,14 +27,9 @@ function Aboutus() {
     <>
       <Header />
       <div className="About">
-        <h1 className="myTitle" style={{fontSize: '60px'}}>About</h1>
-        <p style={{ fontSize: "18px" }} id="myParagraph">
-          Tekana, your trusted solution for seamless property management. We
-          understand the challenges that come with managing properties, whether
-          you’re a landlord handling multiple tenants or a renter trying to
-          navigate lease agreements and maintenance requests. Our mission is to
-          simplify and automate the entire rental process, making it stress-free
-          and efficient for both property owners and tenants.
+        <h1 className="myTitle" style={{fontSize: '50px'}}>About Us</h1>
+        <p style={{ fontSize: "18px", fontWeight: '300' }} id="myParagraph">
+        At Tekana, we understand that managing properties can be complex and time-consuming. That’s why we’ve created a seamless solution for landlords, property managers, and tenants to easily manage properties, rentals, and communication—all in one place.
         </p>
       </div>
       <div className="link">
@@ -47,7 +46,7 @@ function Aboutus() {
           <h1 className="About-Tekana" style={{ color: "#4b48ac" }}>
             Who We Are
           </h1>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "18px", color: '##000000ef', fontWeight: '300' }}>
             We are committed to helping you save time, reduce paperwork, and
             streamline communication between landlords and tenants, all while
             offering transparency and convenience through our user-friendly
@@ -57,7 +56,7 @@ function Aboutus() {
           <h1 className="About-Tekana" style={{ color: "#4b48ac" }}>
             Our Background
           </h1>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "18px", color: '##000000ef', fontWeight: '300' }}>
             Tekana is a comprehensive property management solution designed to
             streamline the relationship between landlords and tenants. Born out
             of the need for a more efficient, transparent, and simplified
@@ -81,7 +80,7 @@ function Aboutus() {
           <h1 className="About-Tekana" style={{ color: "#4b48ac" }}>
             Vision
           </h1>
-          <p style={{ fontSize: "18px" }}>
+          <p style={{ fontSize: "18px", color: '##000000ef', fontWeight: '300' }}>
             Our mission is to provide a cutting-edge platform that simplifies
             property management through innovative digital solutions. Tekana
             aims to automate time-consuming tasks, foster better communication,
@@ -98,35 +97,57 @@ function Aboutus() {
         </div>
       </div>
       {/* Our Team */}
-      <div className="About About2">
-        <h1 className="myTitle Title">Our Team</h1>
-        <p style={{ fontSize: "18px" }} id="About-Paragraph">
-          Tekana, your trusted solution for seamless property management. We
-          understand the challenges that come with managing properties, whether
-        </p>
+     <div className="Our-Team-Div">
+      <div className="Upper-Content">
+        <h4>Meet The Team</h4>
+        <div className="Complex-Line">
+        <HiArrowLongRight />
+          <HiOutlineCube /> 
+          <HiArrowLongLeft />
+        </div>
+        <div className="Our-Team-Descriotion">
+          <p style={{fontSize: "18px", color: '##000000ef', fontWeight: '300'}}>At Tekana, we understand that managing properties can be complex and time-consuming. That’s why we’ve created a seamless solution for landlords, property managers, and tenants to easily manage properties, rentals, and communication—all in one place.</p>
+        </div>
+        <div className="Down-Content">
+        <Card style={{ width: '15rem'}} id="Card">
+      <Card.Img variant="top" src={Member1} id="Card-Image"/>
+      <Card.Body>
+        <Card.Title id="Card-Title">Lewis Bosco</Card.Title>
+        <Card.Text>
+          IT Manager
+        </Card.Text>
+      </Card.Body>
+      </Card>
+      <Card style={{ width: '15rem'}} id="Card">
+      <Card.Img variant="top" src={Member2} id="Card-Image"/>
+      <Card.Body>
+        <Card.Title id="Card-Title">Byiringiro Urban</Card.Title>
+        <Card.Text>
+          Software Developer
+        </Card.Text>
+      </Card.Body>
+      </Card>
+      <Card style={{ width: '15rem'}} id="Card">
+      <Card.Img variant="top" src={Member3} id="Card-Image"/>
+      <Card.Body>
+        <Card.Title id="Card-Title">Cyussa Stessy</Card.Title>
+        <Card.Text>
+          Engeenier
+        </Card.Text>
+      </Card.Body>
+      </Card>
+      <Card style={{ width: '15rem'}} id="Card">
+      <Card.Img variant="top" src={Member4} id="Card-Image"/>
+      <Card.Body>
+        <Card.Title id="Card-Title">Ishimwe Jean Paul</Card.Title>
+        <Card.Text>
+          Sale Manager
+        </Card.Text>
+      </Card.Body>
+      </Card>
+        </div>
       </div>
-      <div className="OurTeam">
-       <div id="Card">
-        <img src={Member1} alt="" className="Member-Image"/>
-        <h4 className="about-head">Thierry</h4>
-        <p>Content Creator</p>
-       </div>
-       <div id="Card">
-        <img src={Member2} alt="" className="Member-Image"/>
-        <h4 className="about-head">Byiringiro</h4>
-        <p>Web Developer</p>
-       </div>
-       <div id="Card">
-        <img src={Member3} alt="" className="Member-Image"/>
-        <h4 className="about-head">Yannick</h4>
-        <p>Sales Manager</p>
-       </div>
-       <div id="Card">
-        <img src={Member4} alt="" className="Member-Image"/>
-        <h4 className="about-head">Bisos</h4>
-        <p>Investor</p>
-       </div>
-      </div>
+     </div>
       {/* < Popup/> */}
       <Reviews/>
       <Footer/>

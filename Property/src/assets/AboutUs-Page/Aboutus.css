@@ -12,7 +12,7 @@
     color: white;
 }
 #About-Paragraph{
-    color: rgb(255, 255, 255);
+    color: rgb(33, 33, 33);
 }
 .link{
     width: 100%;
@@ -45,42 +45,44 @@
     height: 70vh;
 }
 /* Our Team */
-.About2{
-    background-color: white;
-    margin-bottom: 30px;
+.Our-Team-Div{
+    margin-top: 20px;
 }
-.OurTeam{
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    margin: 30px 0 0;
+.Upper-Content{
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    animation: fadeIn 2s ease;
-}
-.Title{
     color: #4b48ac;
 }
-.Paragraph{
-    color: rgb(22, 22, 22);
+.Complex-Line{
+    display: flex ;
+    text-align: center;
+    justify-content: center;
 }
 #Card{
-   width: 20%;
-   height: 40vh;
-   text-align: center;
-   border: 1px solid rgb(105, 105, 105);
-   border-radius: 10px 10px 10px 10px;
-   box-shadow: 1px 1px 1px 1px rgb(160, 160, 160);
-   animation: fadeIn 2s ease;
+    height: 40vh;
+    border-radius: none;
 }
-.Member-Image{
-    width: 100%;
-    height: 30vh;
-    border-radius: 10px 10px 0 0;
+#Card-Image{
+    height: 220px;
+    object-fit: cover;
 }
-.about-head{
+#Card-Title{
     color: #4b48ac;
-    padding-top: 10px;
+}
+.Our-Team-Descriotion{
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #000000af;
+}
+.Down-Content{
+    display: flex ;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
 }
 /* Animation */
 @keyframes fadeIn {
@@ -121,18 +123,20 @@
         width: 100%;
         height: 50vh;
     }
-    .OurTeam{
-        display: block;
-        gap: 10px;
-        margin-top: -170px;
-    }
-    #Card{
-        width: 80%;
-        height: 45vh;
-        margin: 0 0 15px 30px;
-     }
      #About-Paragraph{
         color: rgb(0, 0, 0);
+    }
+    .Our-Team-Descriotion{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .Down-Content{
+        display: block;
+        gap: 20px;
+        margin: 20px 0 0 60px;
+    }
+    #Card{
+        margin-bottom: 10px;
     }
 }
 @media (min-width: 700px) and (max-width: 1023px){
@@ -143,16 +147,6 @@
     .link{
         padding: 20px 0 0 20px;
     }
-    .OurTeam{
-        display: block;
-        gap: 10px;
-        margin-top: -170px;
-    }
-    #Card{
-        width: 80%;
-        height: 40vh;
-        margin: 0 0 15px 80px;
-     }
 }
 @media (min-width: 1024px) and (max-width: 1370px){
     .About{
@@ -179,11 +173,6 @@
         width: 100%;
         height: 50vh;
     }
-      .OurTeam{
-        display: block;
-        gap: 10px;
-        margin-top: -120px;
-    }
 
 }
 /* @media (min-width: 1280px) and (max-width: 1440px) */
@@ -206,20 +195,7 @@
         display: flex;
         padding: 5px;
     }
-    .OurTeam{
-        width: 100%;
-        display: flex;
-        gap: 20px;
-        margin: -100px 0 0 0 ;
-        justify-content: center;
-        align-items: center;
-        animation: fadeIn 2s ease;
-    }
-    .About2{
-        background-color: white;
-        margin-bottom: 30px;
-    }
     #About-Paragraph{
-        color: rgb(215, 215, 215);
+        color: rgb(35, 35, 35);
     }
   }

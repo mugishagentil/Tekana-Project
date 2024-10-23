@@ -26,7 +26,7 @@ function Component1() {
       <h1>Tekana Enhances <br /> 
       <span style={{fontWeight: '700', color: '#4B48AC'}}>Tenant 
       Communication</span> Effectively.</h1>
-      <p>Engage in direct chats, share community announcements, automate messages, and manage various communication channels—all from one streamlined, connected platform.</p>
+      <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Engage in direct chats, share community announcements, automate messages, and manage various communication channels—all from one streamlined, connected platform.</p>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>
@@ -37,7 +37,7 @@ function Component1() {
     <h2 className='long-term Block'>CHAT & ANNOUNCEMENTS</h2>
         <h2 className='Block'>
         Foster a sense of community by keeping tenants informed and engaged</h2>
-        <p style={{fontSize: '20px', color: '#616161'}} className='Block'>With Tekana, sharing announcements with your tenants is a breeze. Hosting a community event? Spread the word with just a few clicks. Foster engagement with likes and comments, or switch to direct chat for private conversations.</p>
+        <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}} className='Block'>With Tekana, sharing announcements with your tenants is a breeze. Hosting a community event? Spread the word with just a few clicks. Foster engagement with likes and comments, or switch to direct chat for private conversations.</p>
         <img src={Img} alt="" className='HomeImgTwo Block'/>
        </div>
    {/* Legal/Organization */}
@@ -45,7 +45,7 @@ function Component1() {
     <div className='Left-Organization'>
     <h2 className='online-rental Block'>LEGAL/ORGANIZATION</h2>
     <h2 className='Block'>Know Where Your <br />Records Are When You <br />Need Them</h2>
-    <p>Tekana keeps a detailed record of all communication between you and your tenants, ensuring that you can easily resolve any disputes. Access signed documents, files, insurance policies, and more—all from a single, convenient platform.</p>
+    <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Tekana keeps a detailed record of all communication between you and your tenants, ensuring that you can easily resolve any disputes. Access signed documents, files, insurance policies, and more—all from a single, convenient platform.</p>
     </div>
     <div className='Right-Organization'>
     <img src={HomeImg} alt="" className='HomeImgs Block'/>
@@ -56,7 +56,7 @@ function Component1() {
    <div className="contant-container">
     <h2 className='long-term Block'>AUTOMATION</h2>
         <h2 className='Block'>Just Because It's Important, <br /> Doesn't Mean It Has To Be Hard</h2>
-        <p style={{fontSize: '20px', color: '#616161'}} className='Block'>Email, fax, text, phone calls - woof. Keeping track of how you sent which information to your
+        <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}} className='Block'>Email, fax, text, phone calls - woof. Keeping track of how you sent which information to your
         tenants when can feel more complicated than remodeling your latest property. But it doesn't
         have to be. Let Innago make communication and automation seamless.</p>
         <img src={Img} alt="" className='HomeImgTwo Block'/>

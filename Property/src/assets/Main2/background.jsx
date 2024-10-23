@@ -22,7 +22,7 @@ function Background() {
                 <div className="content slideUpText" id='myContent'>
                     <h3 className='Property-Management'>Your All-in-One Property  <br></br>
                     Management Solution!</h3>
-                    <p className='' style={{fontSize: '18px'}}>Whether you have one unit or one thousand. <br></br>
+                    <p className='' style={{fontSize: '18px', fontWeight: '300'}}>Whether you have one unit or one thousand. <br></br>
                         Tekana makes life easier.</p>
                     <form onSubmit={(e) =>handlerInputChange(e)}>  
                     <Form.Control name='Email' type="email" value={newEmail} placeholder="Enter Your Email Address" className='form-control ' onChange={(e) => setnewEmail(e.target.value)}/>

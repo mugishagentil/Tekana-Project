@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Pricing.css';
 import Footer from '../Footer/Footer.jsx';
+import FAQ from '../FAQ/Faq.jsx'
 import Header from '../Header/Header.jsx';
 import Reviews from '../Reviewss/Review.jsx';
 import Pay from '../imagess/Pricing.png';
@@ -48,24 +49,11 @@ function Pricing(){
         <>
         <Header/>
         <div className="Price-Content">
-            <h1 className="Simple slide-right">Simple. Powerful. <span style={{color: '#4b48ac'}}>Free</span></h1>
-            <img src={Pay} alt="" className='Pricing'/>
-        <div className="Pricing-Icons">
-        <div className="left-icons" style={{display: 'flex'}}>
-            <MdPayments className='myIcon' style={{color: '#4b48ac'}}/>
-            <p style={{marginTop: '-2px'}} className='Setup Block'>No Setup Feee</p>
+        <h2><span style={{color: '#4b48ac'}}>Reduce Cost</span> With Pre- <br></br>negotiated, transparent pricing</h2>
+        <div className="Price-Content-Par">
+        <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>We don't charge setup, montly, platform, or MID Fees. There's no need for you  to make an minimum commitments, and we don't spring any suprises</p>
         </div>
-        <div className="left-icons" style={{display: 'flex'}}>
-            <MdPayments className='myIcon'  style={{color: '#4b48ac'}}/>
-            <p style={{marginTop: '-2px'}} className='Setup Block'>No Monthly Fee</p>
-        </div>
-        <div className="left-icons" style={{display: 'flex'}}>
-            <MdPayments className='myIcon'  style={{color: '#4b48ac'}}/>
-            <p style={{marginTop: '-2px'}} className='Setup   Block'>No Contract</p>
-        </div>
-        </div>
-        <p className='Every-Feature Block' style={{marginBottom: '50px'}}>Every Feature listed below is included in your <br></br> <span className='span-Feature'>Appartment account at absolutely no cost to you.</span></p>
-        </div> <br />
+        </div> 
        {/* Dropdown-Pricing */}
        {/* Dropdown Title */}
        <div id="support-container">
@@ -263,6 +251,14 @@ function Pricing(){
       )}
     </div>
     {/* <Popup/>     */}
+    {/* Asked Frequent Question */}
+    <div className="Price-Content">
+        <h2><span style={{color: '#4b48ac'}}>We're here to answer all </span> <br></br>your questions.</h2>
+        <div className="Price-Content-Par">
+        <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>If you're new to Tekana or looking for property managment company, this section will help you learn more the platform, pricing and it features</p>
+        </div>
+        </div> 
+    <FAQ />
     <Reviews/>
     <Footer/>
         </>

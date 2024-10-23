@@ -33,7 +33,7 @@ function CollapsibleExample() {
           {/* MegamenuTwo Featured Start Here */}
 
           
-           <NavDropdown title="Features" id="collapsible-nav-dropdown" >
+           <NavDropdown title="Features" id="collapsible-nav-dropdown" style={{marginRight: '-15px'}}>
             <div className="row row-two" id='Megamenu-container1'>
             <Tabs
       defaultActiveKey="landload"
@@ -191,7 +191,7 @@ function CollapsibleExample() {
               </NavDropdown>
                {/* MegamenuTwo Property Type Ends Here */}
 
-              <Nav.Link href="#pricing" > <Link to='/Pricing' style={{fontSize: '18px', fontWeight: '300', color: 'black', textDecoration: 'none'}}>Pricing</Link></Nav.Link>
+              <Nav.Link href="#pricing" > <Link to='/Pricing' style={{fontSize: '18px', fontWeight: '300', color: 'black', textDecoration: 'none', marginRight: '-16px'}}>Pricing</Link></Nav.Link>
 
           {/* MegamenuTwo Resources Start Here */}
           {/* MegamenuTwo Resources Start Here */}

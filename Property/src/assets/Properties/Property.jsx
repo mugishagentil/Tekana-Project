@@ -40,7 +40,7 @@ function Property() {
             Explore Our <br />
             <span style={{ fontWeight: "700" }}> Property We Manage</span>
           </h1>
-          <p>
+          <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>
           "Browse Our Managed Properties "Explore a diverse selection of properties we manage with dedication and professionalism, ensuring a comfortable experience for landlords and tenants alike. Whether residential or commercial, our tailored management services guarantee a smooth experience."
           </p>
         </div>
@@ -60,7 +60,7 @@ function Property() {
           {/* Apartment Tab Start Here */}
           <Tab eventKey="apartment" title="Apartment">
           <div className="div-paragraph">
-          <p><span style={{color: '#4B48AC', fontSize: '18px', fontWeight: '500'}}>Apartment:</span> Offering well-maintained and modern apartments, Tekana ensures a comfortable living experience with streamlined rent payments and fast response to maintenance requests.</p></div>
+          <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}><span style={{color: '#4B48AC', fontSize: '18px', fontWeight: '500'}}>Apartment:</span> Offering well-maintained and modern apartments, Tekana ensures a comfortable living experience with streamlined rent payments and fast response to maintenance requests.</p></div>
             {/* Card */}
             <Container
               className="Card-Conatiner"
@@ -140,7 +140,7 @@ function Property() {
           <Tab eventKey="Commercial" title="Commercial">
             {/* Card */}
             <div className="div-paragraph">
-            <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Commercial:</span> We manage prime commercial spaces that cater to businesses of all sizes, providing a hassle-free leasing process and comprehensive property management services.</p></div>
+            <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Commercial:</span> We manage prime commercial spaces that cater to businesses of all sizes, providing a hassle-free leasing process and comprehensive property management services.</p></div>
             <Container
               className="Card-Conatiner"
               style={{ gap: "5px", marginTop: "80px" }}
@@ -220,7 +220,7 @@ function Property() {
           <Tab eventKey="Residential" title="Residential">
             {/* Card */}
             <div className="div-paragraph">
-            <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Residential:</span> Tekana makes it easy to find and manage your ideal residential property, whether it's a family home or a cozy rental. Our platform simplifies every aspect of your tenancy.</p></div>
+            <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Residential:</span> Tekana makes it easy to find and manage your ideal residential property, whether it's a family home or a cozy rental. Our platform simplifies every aspect of your tenancy.</p></div>
             <Container
               className="Card-Conatiner"
               style={{ gap: "5px", marginTop: "80px" }}
@@ -298,7 +298,7 @@ function Property() {
           <Tab eventKey="Student" title="Student">
             {/* Card */}
             <div className="div-paragraph">
-            <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Schools:</span> Our Academic Stay Properties housing options are designed with convenience in mind, offering affordable and accessible accommodations close to academic institutions.</p></div>
+            <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Schools:</span> Our Academic Stay Properties housing options are designed with convenience in mind, offering affordable and accessible accommodations close to academic institutions.</p></div>
             <Container
               className="Card-Conatiner"
               style={{ gap: "5px", marginTop: "80px" }}
@@ -376,7 +376,7 @@ function Property() {
           <Tab eventKey="Parking" title="Parking ">
             {/* Card */}
             <div className="div-paragraph">
-            <p><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Parking:</span> We provide secure, well-located parking spaces, making vehicle management convenient and accessible for tenants and property owners alike.</p></div>
+            <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}><span style={{color: '#4B48AC', fontSize: '20px', fontWeight: '500'}}>Parking:</span> We provide secure, well-located parking spaces, making vehicle management convenient and accessible for tenants and property owners alike.</p></div>
             <Container
               className="Card-Conatiner"
               style={{ gap: "5px", marginTop: "80px" }}
@@ -459,7 +459,7 @@ function Property() {
         <h2 className="Manage-Your-Property">
           The Perfect Place to Manage Your Property
         </h2>
-        <p className="the-market">
+        <p className="the-market" style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>
           Work with the best suite of property management tools on the market.
         </p>
 

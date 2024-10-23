@@ -17,7 +17,7 @@ function Component3() {
         <Col className='Left-Row'> <div className="content">
             <h2 style={{color: '#242424', paddingBottom: '10px'}} className='Block'>Collection on <br></br> <span style={{fontSize: '40px', color: 'black', paddingTop: '5px'}}>Your Terms</span></h2>
             <h2 className='Block'>Late Fees</h2>
-            <p className='Block'>Automate late fee enforcement with custom settings. We offer the flexibility to charge based on percentage, or flat fees, single or repeating charges, or even a combination of all of them. Apply different settings to different properties and units. Tenants can’t pay any future invoices until all past invoices and late fees have been paid.</p>
+            <p className='Block' style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Automate late fee enforcement with custom settings. We offer the flexibility to charge based on percentage, or flat fees, single or repeating charges, or even a combination of all of them. Apply different settings to different properties and units. Tenants can’t pay any future invoices until all past invoices and late fees have been paid.</p>
           </div></Col>
         <Col><img src={HomeImg} alt="" className='HomeImg Block'/></Col>
       </Row>

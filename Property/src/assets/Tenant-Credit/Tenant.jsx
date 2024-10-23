@@ -24,7 +24,7 @@ function Component1() {
     <div className="leftside-container">
       <h3 className='online-rental1'>TENANT CREDIT PEPORTING</h3>
       <h1>Empowering <span style={{fontWeight: '700', color: '#4B48AC'}}>Tenants</span> Enhancing <span style={{fontWeight: '700', color: '#4B48AC'}}>Landlords' Confidence</span></h1>
-      <p>Tenant credit reporting involves sharing rental payment histories with major credit bureaus, enabling tenants to build their credit scores through timely rent payments. This feature fosters a responsible rental culture, encouraging tenants to pay on time and landlords to ensure a reliable tenant selection process.</p>
+      <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Tenant credit reporting involves sharing rental payment histories with major credit bureaus, enabling tenants to build their credit scores through timely rent payments. This feature fosters a responsible rental culture, encouraging tenants to pay on time and landlords to ensure a reliable tenant selection process.</p>
       {/* <h4><MdVerified /> <span>Saves You Money Later Onn</span></h4>
       <h4><MdVerified /> <span>Immediate Results</span></h4>
       <h4><MdVerified /> <span>OTenant History Reporting</span></h4> */}
@@ -38,7 +38,7 @@ function Component1() {
         <h2 className='Block'>Renter Credit Reporting Saves<br></br>
        You  <span style={{fontWeight: '700'}}> Money Later</span>
         </h2>
-        <p className='Block'>Building a better credit score means you'll have access to more loans with better
+        <p className='Block' style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Building a better credit score means you'll have access to more loans with better
         interest rates when it's time to buy that new car or move into your starter home. Don't let
         your rent go to waste. Put it to work to help build your future..</p>
         <img src={Img} alt="" className='HomeImgTwo Block'/>
@@ -47,7 +47,7 @@ function Component1() {
        <div className="online-container">
     <div className="leftside-container">
       <h1>Start Reporting  <br />  Within<span style={{fontWeight: '700', color: '#4B48AC'}}>One Month</span> </h1>
-      <p>When you pay rent through Tekana, you can see immediate results. As an approved data furnisher with Experian, Equifax, and TransUnion, we begin reporting your payments right away to help improve your credit score.</p>
+      <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>When you pay rent through Tekana, you can see immediate results. As an approved data furnisher with Experian, Equifax, and TransUnion, we begin reporting your payments right away to help improve your credit score.</p>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>
@@ -62,7 +62,7 @@ function Component1() {
     <div className="leftside-container">
       <h1>
       Track Progress </h1>
-      <p>Set your sights on a brighter financial future with Tekana. Track your progress, from where you started to where you’re headed, keeping your goals in focus. And when you reach them, don’t forget to celebrate your success!</p>
+      <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Set your sights on a brighter financial future with Tekana. Track your progress, from where you started to where you’re headed, keeping your goals in focus. And when you reach them, don’t forget to celebrate your success!</p>
     </div>
    </div>
     <Reviews/>
