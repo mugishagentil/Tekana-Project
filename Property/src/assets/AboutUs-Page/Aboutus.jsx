@@ -32,40 +32,23 @@ function Aboutus() {
         At Tekana, we understand that managing properties can be complex and time-consuming. That’s why we’ve created a seamless solution for landlords, property managers, and tenants to easily manage properties, rentals, and communication—all in one place.
         </p>
       </div>
-      <div className="link">
+      {/* <div className="link">
         <Link to="/" className="myLink">
           Home
         </Link>
         <p style={{ margin: "0 10px 0 10px" }}>/</p>
         <p className="myAbout">About</p>
-      </div>
+      </div> */}
       {/* About Content */}
       <div className="myAbout-Content">
         {/* LeftmyAbout */}
         <div className="LeftmyAbout">
-          <h1 className="About-Tekana" style={{ color: "#4b48ac" }}>
-            Who We Are
-          </h1>
-          <p style={{ fontSize: "18px", color: '##000000ef', fontWeight: '300' }}>
-            We are committed to helping you save time, reduce paperwork, and
-            streamline communication between landlords and tenants, all while
-            offering transparency and convenience through our user-friendly
-            platform.
-          </p>
           {/* Background */}
           <h1 className="About-Tekana" style={{ color: "#4b48ac" }}>
             Our Background
           </h1>
           <p style={{ fontSize: "18px", color: '##000000ef', fontWeight: '300' }}>
-            Tekana is a comprehensive property management solution designed to
-            streamline the relationship between landlords and tenants. Born out
-            of the need for a more efficient, transparent, and simplified
-            property management system, Tekana leverages modern technology to
-            automate various tasks such as rent collection, maintenance
-            requests, and communication between landlords and tenants. Whether
-            managing a single property or multiple units, Tekana ensures
-            seamless operations and empowers both parties with real-time data
-            and updates, enhancing the property management experience for all.
+          Tekana is a complete property management solution designed to simplify landlord-tenant interactions. It addresses the need for a more efficient and transparent system by automating tasks like rent collection, maintenance requests, and communication. Whether managing one or multiple properties, Tekana ensures smooth operations with real-time data and updates, providing both landlords and tenants a seamless, modern experience in property management.
           </p>
           {/* Vision */}
           {/* <h1 className="About-Tekana" style={{ color: "#4b48ac" }}>
@@ -81,11 +64,7 @@ function Aboutus() {
             Vision
           </h1>
           <p style={{ fontSize: "18px", color: '##000000ef', fontWeight: '300' }}>
-            Our mission is to provide a cutting-edge platform that simplifies
-            property management through innovative digital solutions. Tekana
-            aims to automate time-consuming tasks, foster better communication,
-            and ensure transparency, making it easier for landlords and tenants
-            to manage their properties effectively and efficiently.
+          Tekana is committed to saving time, reducing paperwork, and improving communication between landlords and tenants through our easy-to-use platform. We simplify property management with innovative digital solutions, automating tasks and ensuring transparency. Our goal is to streamline the process, making it efficient and convenient for both landlords and tenants to manage properties effortlessly.
           </p>
         </div>
         {/* LeftmyAbout */}
@@ -106,7 +85,7 @@ function Aboutus() {
           <HiArrowLongLeft />
         </div>
         <div className="Our-Team-Descriotion">
-          <p style={{fontSize: "18px", color: '##000000ef', fontWeight: '300'}}>At Tekana, we understand that managing properties can be complex and time-consuming. That’s why we’ve created a seamless solution for landlords, property managers, and tenants to easily manage properties, rentals, and communication—all in one place.</p>
+          <p style={{fontSize: "18px", color: '##000000ef', fontWeight: '300'}}>our strength lies in the expertise and dedication of our talented professionals. Meet the team that drives our mission to provide exceptional services across in Tekana System</p>
         </div>
         <div className="Down-Content">
         <Card style={{ width: '15rem'}} id="Card">

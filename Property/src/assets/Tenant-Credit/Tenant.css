@@ -40,13 +40,13 @@
 .collectionImg{
     width: 80%;
 }
-.long-term{
+.long-term2{
     background-color: #4B48AC;
     color: white;
     padding: 10px; border-radius: 5px;
-    width: 30%;
+    width: 50%;
     font-size: 20px;
-    margin-left: 400px;
+    margin-left: 260px;
     margin-bottom: 50px;
 }
 .OnlineHomeImg-Two{
@@ -122,7 +122,7 @@
         width: 90%;
         margin-left: 10px;
     }
-    .long-term{
+    .long-term2{
         width: 60%;
         margin-left: 75px;
     }

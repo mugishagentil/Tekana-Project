@@ -41,7 +41,7 @@ const FAQ = () => {
         <div key={index} className="faq-item" style={{ marginBottom: '15px', borderBottom: '1px solid #ddd', paddingBottom: '10px' }}>
           <h3
             onClick={() => toggleFAQ(index)}
-            style={{ cursor: 'pointer', fontSize: '18px', color: activeIndex === index ? '#007BFF' : '#333' }}
+            style={{ cursor: 'pointer', fontSize: '18px', color: activeIndex === index ? '#4b48ac' : '#333' }}
           >
             {faq.question}
           </h3>

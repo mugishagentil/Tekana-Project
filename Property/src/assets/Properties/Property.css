@@ -68,11 +68,11 @@
     align-items: center;
     margin: 50px 0 0 350px;
 }
-.Apartment-Card{
+#Apartment-Card{
     width: 14rem;
 }
 #my-col{
-    margin-left: -30px;
+    margin-left: -50px;
 }
 
 
@@ -121,7 +121,7 @@
     }
 }
      #my-col2{
-        margin-left: -50px;
+        margin-left: -20px;
     }
 @media (min-width: 700px) and (max-width: 1023px){
     .mb{

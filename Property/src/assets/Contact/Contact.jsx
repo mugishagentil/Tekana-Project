@@ -43,13 +43,13 @@ const ContactUs = () => {
         We’re here to help you with any inquiries or support you may need regarding your property management experience. Whether you're a landlord, property manager, or tenant, Tekana is committed to providing timely assistance.
         </p>
       </div>
-      <div className="link">
+      {/* <div className="link">
         <Link to="/" className="myLink">
           Home
         </Link>
         <p style={{ margin: "0 10px 0 10px" }}>/</p>
         <p className="myAbout">Contact</p>
-      </div>
+      </div> */}
     <div className="contact-page">
 
       <div className="contact-details">

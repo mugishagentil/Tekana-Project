@@ -4,7 +4,7 @@
 }
 .review{
     width: 70%;
-    margin: 0;
+    margin: 0 0 40px 0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px rgba(219, 219, 219, 0.2);
@@ -35,6 +35,27 @@
 .swiper-wrapper{
     padding-left: 20px;
     
+}
+.swiper-scrollbar-drag{
+    display: none;
+}
+.swiper-scrollbar-horizontal{
+    display: none;
+}
+span.swiper-pagination-bullet{
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+    
+}
+span.swiper-pagination-bullet-active {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 14px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 14px));
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, var(--swiper-theme-color));
 }
 .Slider{
     width: 94%;
@@ -71,7 +92,7 @@
 @media (max-width: 600px){
     .review{
         width: 80%;
-        margin: 0;
+        margin: 0 0 20px 0;
         padding: 10px;
         border-radius: 10px;
         box-shadow: 3px 3px 3px 3px rgba(219, 219, 219, 0.2);

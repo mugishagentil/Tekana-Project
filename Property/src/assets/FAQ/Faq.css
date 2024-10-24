@@ -34,19 +34,19 @@
   
   /* Hover effect for FAQ questions */
   .faq-item h3:hover {
-    color: #007BFF;
+    color: #4b48ac;
   }
   
   /* Active state for open FAQ */
   .faq-item h3.active {
-    color: #007BFF;
+    color: #4b48ac;
   }
   
   /* FAQ answer styling */
   .faq-item p {
     margin-top: 10px;
     font-size: 16px;
-    color: #555;
+    color: #1f1f1f;
     line-height: 1.5;
     animation: fadeIn 0.3s ease;
   }

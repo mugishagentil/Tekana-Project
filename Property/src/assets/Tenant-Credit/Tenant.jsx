@@ -34,7 +34,7 @@ function Component1() {
     </div>
    </div>
     <div className="contant-container">
-    <h2 className='long-term Block' style={{marginTop: '-50px'}}>LONG TERM FINANCIAL HEALTH</h2>
+    <h2 className='long-term2 Block' style={{marginTop: '-50px'}}>LONG TERM FINANCIAL HEALTH</h2>
         <h2 className='Block'>Renter Credit Reporting Saves<br></br>
        You  <span style={{fontWeight: '700'}}> Money Later</span>
         </h2>

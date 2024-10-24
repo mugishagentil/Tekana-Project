@@ -67,7 +67,7 @@ function Property() {
               style={{ gap: "1px", marginTop: "80px" }}
             >
               <Row id="Row">
-                <Col id="my-col2">
+                <Col id="my-col">
                 <Link style={{textDecoration: 'none'}}>
                   <Card  className="Card-Col Apartment-Card">
                     <Card.Img variant="top" src={Apartment1} />

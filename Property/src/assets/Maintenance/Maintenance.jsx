@@ -27,9 +27,9 @@ function Commercial2() {
       <h1><span style={{fontWeight: '700'}}>
       Stay Organized, </span> <br /> Achieve More</h1>
       <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Promptly receive and address maintenance requests to ensure peace of mind for both you and your tenants.</p>
-      <h4>< MdOutlineWorkHistory  /> <span>Say goodbye to printed work orders</span></h4>
-      <h4><IoGitPullRequestSharp /> <span>Complete more requests, more quickly</span></h4>
-      <h4><SiLinuxprofessionalinstitute /> <span>Give tenants professional, fast response times</span></h4>
+      <h4 style={{fontSize: '20px'}}>< MdOutlineWorkHistory  /> <span>Say goodbye to printed work orders</span></h4>
+      <h4 style={{fontSize: '20px'}}><IoGitPullRequestSharp /> <span>Complete more requests, more quickly</span></h4>
+      <h4 style={{fontSize: '20px'}}><SiLinuxprofessionalinstitute /> <span>Give tenants professional, fast response times</span></h4>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>

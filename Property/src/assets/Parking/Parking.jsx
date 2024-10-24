@@ -21,9 +21,9 @@ function Parking() {
       <h1>Simplifying Parking  <br /> 
       <span style={{fontWeight: '700'}}>Property Management</span></h1>
       <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Managing parking properties can be a challenging task, especially when it comes to keeping track of space availability, managing reservations, and ensuring timely payment collection. Tekana is here to transform the way you handle parking spaces, making it easier and more efficient than ever.</p>
-      <h4><LuAlignVerticalSpaceBetween /> <span>Space Optimization</span></h4>
-      <h4><BsArrowBarRight /> <span>Seamless Reservations</span></h4>
-      <h4><GiTimeBomb/> <span>Timely Payments</span></h4>
+      <h4 style={{fontSize: '20px'}}><LuAlignVerticalSpaceBetween /> <span>Space Optimization</span></h4>
+      <h4 style={{fontSize: '20px'}}><BsArrowBarRight /> <span>Seamless Reservations</span></h4>
+      <h4 style={{fontSize: '20px'}}><GiTimeBomb/> <span>Timely Payments</span></h4>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>

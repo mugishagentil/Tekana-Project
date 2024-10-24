@@ -29,9 +29,9 @@ function Component1() {
       <h1>Safeguard Your Property, <br /> 
       <span style={{fontWeight: '700'}}>Secure Your Business</span></h1>
       <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Renter’s insurance offers cost-effective coverage, providing protection for tenants and landlords against property damage and potential legal issues. It's a smart choice for everyone in the rental process.</p>
-      <h4><TbDoorEnter /> <span>Set renter’s insurance requirements</span></h4>
-      <h4>< BiSolidPurchaseTag /> <span>Purchase or upload policies</span></h4>
-      <h4><IoDocumentsOutline /> <span>Track documents and status</span></h4>
+      <h4 style={{fontSize: '20px'}}><TbDoorEnter /> <span>Set renter’s insurance requirements</span></h4>
+      <h4 style={{fontSize: '20px'}}>< BiSolidPurchaseTag /> <span>Purchase or upload policies</span></h4>
+      <h4 style={{fontSize: '20px'}}><IoDocumentsOutline /> <span>Track documents and status</span></h4>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>

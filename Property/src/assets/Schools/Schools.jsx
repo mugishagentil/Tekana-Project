@@ -23,9 +23,9 @@ function Student() {
       <h1>Simplify School <br /> 
       <span style={{fontWeight: '700'}}>Hostel Property Management</span></h1>
       <p style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Managing schools and hostel properties just got easier with Tekana. Our platform provides a streamlined solution for property owners and managers to oversee student accommodations efficiently, ensuring a seamless experience for students, parents, and administrators.</p>
-      <h4><BsAward /> <span>Hassle-free Management</span></h4>
-      <h4><FcAutomatic /> <span>Automated Payments</span></h4>
-      <h4><GiTelepathy /> <span>Efficient Communication</span></h4>
+      <h4 style={{fontSize: '20px'}}><BsAward /> <span>Hassle-free Management</span></h4>
+      <h4 style={{fontSize: '20px'}}><FcAutomatic /> <span>Automated Payments</span></h4>
+      <h4 style={{fontSize: '20px'}}><GiTelepathy /> <span>Efficient Communication</span></h4>
     </div>
     <div className="rightside-container">
       <img src={HomeImg} alt="" className='OnlineHomeImg'/>
