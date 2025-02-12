@@ -15,7 +15,6 @@ function Popup() {
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');
   const [error, setError] = useState(null);
-
   const handleScroll = () => {
     try {
       setScrollCount((prev) => prev + 1);

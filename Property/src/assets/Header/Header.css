@@ -5,7 +5,7 @@
 #navBar{
     height: 100px;
     background-color: #FFF6EA;
-    border-bottom: 2px solid rgb(94, 105, 226);
+    box-shadow: 0px 0px 10px 0px #000000;
 }
 
 #Header{
@@ -66,6 +66,7 @@
     width: 100px;
     height: 80px;
     transition: transform 0.3s ease;
+    margin-left: -60px;
 }
 .div-link {
     text-decoration: none;
@@ -129,9 +130,7 @@
 /* Logging and Signup place for Header Start-Here */
 .signIn-Button{
     font-size: 800;
-    color: black;
-    
-    margin-top: 5px;
+    color: black; 
 }
 .SignUp-Button{
     border: 1px solid #4b48ac;
@@ -244,6 +243,7 @@
     }
     .Logo1{
        margin-top: -30px;
+       margin-left: 1px;
     }
     #Megamenu-container1{
         width: 330px;

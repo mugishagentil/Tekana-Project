@@ -9,6 +9,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Img from "../imagess/Makuza.jpeg";
 import { Link } from "react-router-dom";
+import 'animate.css';
 // Images
 import Apartment1 from "../imagess/Apartiment1.webp";
 import Apartment2 from "../imagess/Apartment2.webp";
@@ -23,7 +24,7 @@ function About() {
     <Row id='Row'>
       <Col className='Left-About' id='Left-About'>
       {/* About Content */}
-      <h1 className='About-Tekana' style={{color: '#4b48ac', }}>About Tekana System</h1>
+      <h1 className='About-Tekana animate__zoomIn' style={{color: '#4b48ac', }}>About Tekana System</h1>
       <p className='Tekana-Paragraph' style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>Tekana, your trusted solution for seamless property management. We understand the challenges that come with managing properties, whether you’re a landlord handling multiple tenants or a renter trying to navigate lease agreements and maintenance requests. Our mission is to simplify and automate the entire rental process, making it stress-free and efficient for both property owners and tenants.</p>
       <h1 className='About-Tekana' id='Tekana-Paragraph'style={{color: '#4b48ac'}}>Who We Are</h1>
       <p className='Tekana-Paragraph' id='Tekana-Paragraph' style={{fontSize: "17px", color: '##000000ef', fontWeight: '300'}}>We are committed to helping you save time, reduce paperwork, and streamline communication between landlords and tenants, all while offering transparency and convenience through our user-friendly platform.</p>

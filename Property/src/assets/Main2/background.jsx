@@ -4,6 +4,7 @@ import './background.css';
 import img3 from '../imagess/image3.png';
 import video from '../imagess/digital.mp4';
 import Form from 'react-bootstrap/Form';
+// import 'animate.css';
 
 
 function Background() {
@@ -20,7 +21,7 @@ function Background() {
                 {/* <div className='overlay'></div> */}
                 <video src={video} autoPlay loop muted />
                 <div className="content slideUpText" id='myContent'>
-                    <h3 className='Property-Management'>Your All-in-One Property  <br></br>
+                    <h3 className='Property-Management animate__fadeInDown'>Your All-in-One Property  <br></br>
                     Management Solution!</h3>
                     <p className='' style={{fontSize: '18px', fontWeight: '300'}}>Whether you have one unit or one thousand. <br></br>
                         Tekana makes life easier.</p>

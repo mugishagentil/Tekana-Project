@@ -33,7 +33,7 @@ function CollapsibleExample() {
           {/* MegamenuTwo Featured Start Here */}
 
           
-           <NavDropdown title="Features" id="collapsible-nav-dropdown" style={{marginRight: '-15px'}}>
+           <NavDropdown title="Features" id="collapsible-nav-dropdown" style={{marginRight: '20px'}}>
             <div className="row row-two" id='Megamenu-container1'>
             <Tabs
       defaultActiveKey="landload"
@@ -120,7 +120,7 @@ function CollapsibleExample() {
 
 
       {/* MegamenuTwo Property Type Start Here */}
-              <NavDropdown title="Property Type" id="collapsible-nav-dropdown" style={{fontSize: '20px'}}>
+              <NavDropdown title="Property Type" id="collapsible-nav-dropdown" style={{fontSize: '0px' ,marginRight: '20px'}}>
             <div className="row row-two" id='Megamenu-container2'>
            {/* Mega Piece One */}
            <div className="col-md-4">
@@ -191,11 +191,11 @@ function CollapsibleExample() {
               </NavDropdown>
                {/* MegamenuTwo Property Type Ends Here */}
 
-              <Nav.Link href="#pricing" > <Link to='/Pricing' style={{fontSize: '18px', fontWeight: '300', color: 'black', textDecoration: 'none', marginRight: '-16px'}}>Pricing</Link></Nav.Link>
+              <Nav.Link href="#pricing" > <Link to='/Pricing' style={{fontSize: '18px', fontWeight: '300', color: 'black', textDecoration: 'none', marginRight: '20px'}}>Pricing</Link></Nav.Link>
 
           {/* MegamenuTwo Resources Start Here */}
           {/* MegamenuTwo Resources Start Here */}
-           <NavDropdown title="Resources" id="collapsible-nav-dropdown" style={{fontSize: '20px', }}>
+           <NavDropdown title="Resources" id="collapsible-nav-dropdown" style={{fontSize: '20px',marginRight: '20px' }}>
             <div className="row row-two" id='Megamenu-container3'>
             {/* Mega Piece One */}
             <div className="col-md-4">
@@ -247,7 +247,7 @@ function CollapsibleExample() {
               <Nav.Link>
                 <Link  eventKey={2} href="#signin" to='/signup' className='SignUp-Button'>Sign Up</Link>
               </Nav.Link>
-             
+
             </Nav>
           </Navbar.Collapse>
         </Container>
